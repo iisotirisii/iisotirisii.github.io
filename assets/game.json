@@ -355,7 +355,7 @@
             "ans":[7, 8, 7, 7, 6, 7, 8, 7, 5, 8]
         }
     ],
-    "Counting": [
+    "counting": [
         {
             "opts": [
                 [9,11,6,14],
@@ -499,7 +499,7 @@
             "ans":[3, 5, 7, 9, 11, 13, 15, 17, 19]
         }
     ],
-    "Addition-Subtraction": [
+    "addsub": [
         {
             "opts": [
                 [4,6,8,10],
@@ -735,7 +735,7 @@
             "ans":[332, 543, 744, 622, 833, 321, 225]
         }
     ],
-    "Multiplication-Division": [
+    "multiplication-division": [
         {
             "opts": [
                 [8,6,10,4],
