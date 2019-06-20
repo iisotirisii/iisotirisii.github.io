@@ -239,12 +239,6 @@ var gbuild = () => {
                     inpb(0);
                     uit('spin', 0);
                 }
-                img.onerror = () => {
-                    img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}.${sess + 1}q.JPG`;
-                    uit('spin', 1);
-
-                }
-
                 imgFit('qimg');
                 document.getElementById('op1').innerHTML = ops[0];
                 document.getElementById('op2').innerHTML = ops[1];
@@ -261,11 +255,7 @@ var gbuild = () => {
                     uit('spin', 0);
                 }
 
-                img.onerror = () => {
-                    img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}a.JPG`;
-                    uit('spin', 1);
 
-                }
 
                 uit('ques', 0);
                 uit('ans', 1);
@@ -295,10 +285,7 @@ var gbuild = () => {
         uit('spin', 1);
         document.getElementById('board').style.pointerEvents = "none";
         inpb(1);
-        img.onerror = () => {
-            img.src = `/assets/images/core/${lvl}_${round + 1}_${sess + 1}q.JPG`;
-            uit('spin', 1);
-        }
+
         img.onload = () => {
             inpb(0);
             uit('spin', 0);
@@ -326,10 +313,7 @@ var next = (el) => {
                 inpb(0);
                 uit('spin', 0);
             }
-            img.onerror = () => {
-                img.src = `/assets/images/core/${lvl}_${round + 1}_${sess}a.JPG`;
-                uit('spin', 1);
-            }
+
             imgFit('aimg');
             uit('ques', 0);
             uit('ans', 1);
