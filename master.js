@@ -232,7 +232,7 @@ var gbuild = () => {
                 document.getElementById('count').innerText = `${sess + 1}/${g["set"][ses]["opts"].length}`
                 img = document.getElementById('qimg');
                 img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}.${sess + 1}q.jpg`;
-                inpb(1);
+                //inpb(1);
                 uit('spin', 1);
                 img.onload = () => {
                     inpb(0);
@@ -248,7 +248,7 @@ var gbuild = () => {
                 img = document.getElementById('aimg');
                 img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}a.jpg`;
                 uit('spin', 1);
-                inpb(1);
+                //inpb(1);
                 img.onload = () => {
                     inpb(0);
                     uit('spin', 0);
@@ -280,7 +280,7 @@ var gbuild = () => {
         img.src = `/assets/images/core/${lvl}_${round + 1}_${sess + 1}q.jpg`;
         uit('spin', 1);
         document.getElementById('board').style.pointerEvents = "none";
-        inpb(1);
+        //inpb(1);
         img.onload = () => {
             inpb(0);
             uit('spin', 0);
@@ -302,7 +302,7 @@ var next = (el) => {
         } else {
             img = document.getElementById('aimg')
             img.src = `/assets/images/core/${lvl}_${round + 1}_${sess}a.jpg`;
-            inpb(1);
+           // inpb(1);
             uit('spin', 1);
             img.onload = () => {
                 inpb(0);
