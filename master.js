@@ -234,9 +234,11 @@ var gbuild = () => {
                 img = document.getElementById('qimg');
                 img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}.${sess + 1}q.jpg`;
                 inpb(1);
+                uit('qimg', 0);
                 uit('spin', 1);
                 img.onload = () => {
                     inpb(0);
+                    uit('qimg', 1);
                     uit('spin', 0);
                 }
                 imgFit('qimg');
