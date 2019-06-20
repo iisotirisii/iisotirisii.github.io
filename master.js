@@ -189,7 +189,6 @@ var gamef = () => {
     });
 }
 
-localStorage.lang = "";
 langSelect();
 var gdat, lvl, round, ans, sess;
 
