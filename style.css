@@ -135,7 +135,9 @@ button:focus {
 
 /* Frame */
 
-
+img {
+    border-radius: 12px;
+}
 
 .overlay {
     display: none;
