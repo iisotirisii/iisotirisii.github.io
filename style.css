@@ -92,13 +92,17 @@ button:focus {
     display: inline-block;
     margin: 0 auto;
     margin-top: 5px;
-    padding: 5px;
+    padding: 11px;
     width: 40%;
     border: solid #fff 1px;
     border-radius: 12px;
     background: #f4433600;
     color: rgb(255, 255, 255);
     transition: all 0.4s;
+}
+
+.nv:hover {
+    padding: 13px;
 }
 
 .navb:hover {
@@ -136,7 +140,7 @@ button:focus {
 /* Frame */
 
 img {
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 .overlay {
