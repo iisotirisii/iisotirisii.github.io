@@ -54,25 +54,13 @@ var addticks = (t) => {
     }
 }
 
-
-var rstate = () => {
-    if (localStorage.rounds) {
-        la = JSON.parse(localStorage.rounds);
-        // lll = la;
-        lak = Array.from(Object.keys(la));
-        // llll = lak;
-        lak.map((e) => {
-            // t = document.getElementById(e[0]).children[e[1]];
-            la[e].map((ee) => {
-                t = document.getElementById(e).children[ee];
-                addticks(t);
-            });
-
-        });
-    }
-
-    rr = Object.keys(JSON.parse(localStorage.Routes));
+var tickall = () => {
     var ct = 0
+    try {
+        rr = Object.keys(JSON.parse(localStorage.Routes));
+    } catch (e) {
+        rr = [];
+    }
     rr.map((e) => {
         if (e !== "") {
             var full = 0;
@@ -92,6 +80,28 @@ var rstate = () => {
         }
     });
 }
+
+
+var rstate = () => {
+    if (localStorage.rounds) {
+        la = JSON.parse(localStorage.rounds);
+        // lll = la;
+        lak = Array.from(Object.keys(la));
+        // llll = lak;
+        lak.map((e) => {
+            // t = document.getElementById(e[0]).children[e[1]];
+            la[e].map((ee) => {
+                t = document.getElementById(e).children[ee];
+                addticks(t);
+            });
+
+        });
+    }
+
+    tickall();
+}
+
+
 
 
 
@@ -191,7 +201,7 @@ var gamef = () => {
 
 localStorage.lang = "";
 langSelect();
-var gdat, lvl, round, ans, sess;
+var gdat, lvl, round, ans, sess, mix = 0, ff = 0;
 
 var game = (n) => {
     round = n;
@@ -204,8 +214,10 @@ var game = (n) => {
 }
 
 gamef();
-
 var gbuild = () => {
+    document.getElementById('q').innerText = "";
+    document.getElementById('count').innerText = "";
+
     uit('ans', 0);
     g = gdat[round];
     // console.log(g);
@@ -228,26 +240,70 @@ var gbuild = () => {
             if (sess < g["set"][ses]["opts"].length) {
                 ops = g["set"][ses]["opts"][sess];
                 ans = g["set"][ses]["ans"][sess];
-                // abacus_2_1.1q.JPG
-                document.getElementById('q').innerText = g["set"][ses]["ques"];
-                document.getElementById('count').innerText = `${sess + 1}/${g["set"][ses]["opts"].length}`
-                img = document.getElementById('qimg');
-                img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}.${sess + 1}q.jpg`;
-                inpb(1);
-                uit('qimg', 0);
-                uit('spin', 1);
-                img.onload = () => {
-                    inpb(0);
-                    uit('qimg', 1);
-                    uit('spin', 0);
+                // ques null mix case
+                if (g["set"][ses]["ques"] === "") {
+                    mix++;
+                    document.getElementById('q').innerText = "";
+                    document.getElementById('count').innerText = "";
+                    img = document.getElementById('qimg');
+                    img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + mix}q.jpg`;
+                    inpb(1);
+                    uit('qimg', 0);
+                    uit('spin', 1);
+                    img.onload = () => {
+                        inpb(0);
+                        uit('qimg', 1);
+                        uit('spin', 0);
+                    }
+                    document.getElementById('op1').innerHTML = ops[0];
+                    document.getElementById('op2').innerHTML = ops[1];
+                    document.getElementById('op3').innerHTML = ops[2];
+                    document.getElementById('op4').innerHTML = ops[3];
+                    sess++;
+                    uit('ques', 1);
+                    if (g["set"][ses]["ans"][sess] === undefined) {
+                        ff = 1;
+                    }
+                } else {
+                    mix = 0;
+                    document.getElementById('q').innerText = g["set"][ses]["ques"];
+                    document.getElementById('count').innerText = `${sess + 1}/${g["set"][ses]["opts"].length}`
+                    img = document.getElementById('qimg');
+                    img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}.${sess + 1}q.jpg`;
+                    inpb(1);
+                    uit('qimg', 0);
+                    uit('spin', 1);
+                    img.onload = () => {
+                        inpb(0);
+                        uit('qimg', 1);
+                        uit('spin', 0);
+                    }
+                    imgFit('qimg');
+                    document.getElementById('op1').innerHTML = ops[0];
+                    document.getElementById('op2').innerHTML = ops[1];
+                    document.getElementById('op3').innerHTML = ops[2];
+                    document.getElementById('op4').innerHTML = ops[3];
+                    sess++;
                 }
-                imgFit('qimg');
-                document.getElementById('op1').innerHTML = ops[0];
-                document.getElementById('op2').innerHTML = ops[1];
-                document.getElementById('op3').innerHTML = ops[2];
-                document.getElementById('op4').innerHTML = ops[3];
-                sess++;
+
             } else {
+
+                if (ff === 1) {
+                    ff = 0;
+                    inpb(1);
+                    uit('e-done', 1);
+                    return;
+
+
+                }
+
+                if (mix !== 0) {
+                    return;
+                }
+
+
+
+
                 img = document.getElementById('aimg');
                 img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}a.jpg`;
                 uit('spin', 1);
@@ -256,9 +312,6 @@ var gbuild = () => {
                     inpb(0);
                     uit('spin', 0);
                 }
-
-
-
                 uit('ques', 0);
                 uit('ans', 1);
                 ses++;
@@ -266,7 +319,6 @@ var gbuild = () => {
                 return;
             }
         }
-
 
         uit('ques', 1);
         return;
@@ -298,17 +350,31 @@ var gbuild = () => {
         document.getElementById('op3').innerHTML = ops[2];
         document.getElementById('op4').innerHTML = ops[3];
     }
+
     sess++;
     uit('ques', 1);
 }
 
 var next = (el) => {
     if (el.innerText === ans.toString()) {
-        if (sn !== 0) {                                                                               // abacus_2_1a.JPG
+        if (sn !== 0 && mix === 0) {                                                                               // abacus_2_1a.JPG
             gbuild();
-        } else {
+        } else if (mix === 0) {
             img = document.getElementById('aimg')
             img.src = `/assets/images/core/${lvl}_${round + 1}_${sess}a.jpg`;
+            inpb(1);
+            uit('spin', 1);
+            img.onload = () => {
+                inpb(0);
+                uit('spin', 0);
+            }
+            imgFit('aimg');
+            uit('ques', 0);
+            uit('ans', 1);
+        } else {
+            // mix case
+            img = document.getElementById('aimg')
+            img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + mix}a.jpg`;
             inpb(1);
             uit('spin', 1);
             img.onload = () => {
@@ -319,13 +385,12 @@ var next = (el) => {
             imgFit('aimg');
             uit('ques', 0);
             uit('ans', 1);
+
         }
 
     } else {
         inpb(1);
         uit('e-ans', 1);
-        // alert(el.innerText);
-        // alert(ans);
     }
 }
 
@@ -359,6 +424,7 @@ var gameup = () => {
     }
 
     gdat, lvl, round, ans, sess;
+    tickall();
 }
 
 
