@@ -1,0 +1,101 @@
+﻿ENGLISH - ARABIC
+Math made easy : أصبحت الرياضيات سهلة        
+Please try again : من فضلك حاول مرة أخرى
+Correct Answer : إجابة صحيحة
+Next level : المستوى التال
+Task : المهمة
+Where to pace the next Dot? : أين تسير النقطة التالية؟
+
+
+Count to 5 : العد إلى 5
+Hidden Fingers up to 5 : الأصابع الخفية حتى 5
+Sums up  to 5 : اجمع حتى تحصل على 5
+Subtract up to 5 : اطرح حتى تحصل على 5 
+Making 3 : احصل على 3
+Making 4  : احصل على 4
+Making 5 : احصل على 5
+
+
+Count to 10 : العد الى 10
+Hidden Fingers up to 10 : الأصابع الخفية حتى 10
+Count and Backwards up to 10 : العد والرجوع الى 10
+Sums up  to 10 : اجمع حتى تحصل على 10
+Subtract up to 10 : اطرح حتى تحصل على 10
+Count and Backwards by 2 : العد والرجوع بقيمة 2
+Making 6 : احصل على 6
+Making 7 : احصل على 7
+Making 8 : احصل على 8
+Making 9 : احصل على 9 
+Making 10 : احصل على 10
+
+
+Count and Backwards between 10 and 20: العد والرجوع بين 10 و 20
+Count and Backwards by 2 up to 20 : العد والرجوع بقيمة 2 الى 20
+Sums up  to 20-Case 1 : اجمع حتى تحصل على 20 – حالة1
+Sums up  to 20-Case 2 : اجمع حتى تحصل على 20 – حالة 2
+Subtract up to 20-Case 1 : اطرح حتى تحصل على 20 – حالة 1
+Subtract up to 20-Case 2: اطرح حتى تحصل على 20 – حالة 2
+
+
+
+
+Up to 100 : الوصول إلى 100
+Even : زوجي
+Odd : فردي
+
+
+
+
+Add doublets : إضافة أزواج
+Addition with 3 Numbers up to 10 : إضافة 3 أرقام حتى 10
+Addition with 3 Numbers up to 20: إضافة 3 أرقام حتى 20
+Cumulative law of Addition : قانون الجمع التراكمي
+Property Subtraction : خاصية الطرح
+
+
+
+
+
+
+Abacus up to 100 : عملية تراكمية حتى 100
+Addition with Abacus : الجمع التراكمي
+Subtraction with abacus : الطرح التراكمي
+Abacus up to 1000 : عملية تراكمية حتى 1000
+
+
+
+
+Multiplication : الضرب
+Relate Addition and Multiplication : ربط الجمع والضرب
+Cumulative law of Multiplication : قانون الضرب التراكمي
+Multiplication Problems : مسائل ضرب
+Multiplication-Division : الضرب- القسمة
+Division case a : القسمة حالة أ
+Division case b : القسمة حالة ب
+
+
+
+
+Counting : العد
+Sum : الجمع
+up to 5 : الوصول الى 5
+up to 10 : الوصول الى 10
+up to 20 : الوصول الى 20
+Addition- Subtraction : الجمع - الطرح
+Abacus : العملية التراكمية
+Play again : لعب مرة أخرى
+Next task : المهمة التالية
+Repeat question : إعادة السؤال
+Next  question : السؤال التالي
+Task 1 : المهمة 1
+Task 2 : المهمة 2
+Task 3 : المهمة 3
+Task 4 : المهمة 4
+Task 5 : المهمة 5
+Task 6 : المهمة 6
+Task 7 : المهمة 7
+Task 8 : المهمة 8
+Task 9 : المهمة 9
+Task 10 : المهمة 10
+Task 11 : المهمة 11
+Task 12 : المهمة 12

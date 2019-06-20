@@ -1,0 +1,95 @@
+﻿ENGLISH - CHINESE
+
+By Soltris Delis : 作者：Soltris Delis
+Incorrect answer : 错误答案
+Try again : 再试一次
+Round completed : 圆形完成
+Maths Made Easy : 令数学变得更简单
+Back : 背部
+Ok : 好
+Please try again : 请再试一次
+Correct Answer : 正确答案 
+Next level : 下一级
+Task  : 任务
+Where to pace the next Dot? : 下一个小数点应放在哪里？
+Count to 5 : 数到5
+Hidden fingers up to 5 : 隐藏手指至5
+Sums up to 5 : 加至5
+Subtract up to 5 : 减至5
+Making 3 : 制作3
+Making 4  : 制作4
+Making 5 : 制作5
+
+Count To 10 : 数到10
+Hidden Fingers up to 10 : 隐藏手指至10只
+Count and Backwards up to 10 : 计数和向后倒数至10
+Sums up  to 10 : 加至10
+Subtract up to 10 : 减至10
+Count and Backwards by 2 : 以2计数和向后倒数
+Making 6 : 制作6
+Making 7 : 制作7
+Making 8 : 制作8
+Making 9 : 制作9
+Making 10 : 制作10
+
+
+Count and Backwards between 10 and 20: 在10至20之间计数和向后倒数
+Count and Backwards by 2 up to 20 : 在2至20之间计数和向后倒数
+Sums up to 20 - Case 1 : 加至20 - 例子1
+Sums up to 20 - Case 2 : 加至20 - 例子2
+Subtract within 20 - Case 1 : 减至20 - 例子1
+Subtract within 20 - Case 2: 减至20 - 例子2
+
+
+Up to 100 : 最多至100
+Even : 双数
+Odd : 单数
+
+
+Add Doublets: 加双位数
+Addition with 3 Numbers upto 10 : 添加3个数字至10
+Addition with 3 Numbers upto 20: 添加3个数字至20
+Cumulative law of Addition: 加法累计法
+Property Subtraction : 属性减法
+Abacus up to 100 : 算盘加至100
+Addition with Abacus : 算盘加法
+Subtraction with Abacus : 算盘减法
+Abacus upto 1000 : 算盘加至1000
+Multiplication : 乘法
+Relate Addition and Multiplication : 相关加法和乘法
+Cumulative law of Multiplication : 乘法的交换法则
+Multiplication Problems : 乘法问题
+Multiplication - Division : 乘法除法
+Division a : 例子a
+Division b : 案子b
+
+
+Counting : 计数 
+sum : 加法
+Up to 5 : 至5
+Up to 10 : 至10
+Up to 20 : 至20
+Up To 100 : 至100
+Addition - Subtraction : 加法 - 减法
+Abacus : 算盘
+Play again : 再玩一次
+Next task : 下一个任务
+Repeat question : 重复问题
+Next question : 下一个问题
+
+Task 1 : 任务1
+Task 2 : 任务2
+Task 3 : 任务3
+Task 4 : 任务4
+Task 5 :任务5
+Task 6 : 任务6
+Task 7 : 任务7
+Task 8 : 任务8
+Task 9 : 任务9
+Task 10 : 任务10
+Task 11 : 任务11
+Task 12 : 任务12
+
+
+Previous Task : 之前的任务
+Count and Backwards by 2 up to 20 : 以2-20计数和向后倒数

@@ -1,0 +1,24 @@
+{
+    "name": "Maths Made Easy",
+    "short_name": "Maths Made Easy",
+    "icons": [{
+      "src": "/assets/images/art/logo.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }, 
+      {
+        "src": "/assets/images/art/logo.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/images/art/logo5.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#ef5350"
+}
