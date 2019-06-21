@@ -103,38 +103,6 @@ var rstate = () => {
 
 
 
-
-
-var langSelect = (ch) => {
-    // fetch and store to mem
-    if (!localStorage.lang) {
-        rstate();
-        return;
-    }
-    // fetch localst lang file then to lang var
-    fetch(`/assets/lang/core/${localStorage.lang}.txt`).then(async (res) => {
-        lang = await res.text();
-        langDaemon('head', 1);
-        langDaemon('back', 1);
-        langDaemon('next', 1);
-        langDaemon('lbl', 1);
-        langDaemon('by', 1);
-        langDaemon('e-ans');
-        langDaemon('e-done');
-
-
-        ids = Object.keys(JSON.parse(localStorage.Routes));
-        ids.map((id) => {
-            (id == "") ? id = "home" : null;
-            if (id == "play") return;
-            langDaemon(id);
-        });
-
-        rstate();
-
-    });
-}
-
 var langDaemon = (id, e) => {
     if (!lang) {
         return;
@@ -158,6 +126,20 @@ var langDaemon = (id, e) => {
         // console.log(`${txt} : ${trans}`);
         (trans === "" || trans === undefined) ? trans = txt : null;
         sheet.innerText = trans;
+    } else if (e === "m") {
+        var sheet = document.getElementById(id);
+        var trans = "";
+        j = lang.indexOf("Hi there!");
+        var flag = 0;
+        while (lang[j] !== "\n") {
+            if (lang[j - 1] === ":" || flag === 1) {
+                flag = 1;
+                trans += lang[j];
+            }
+            j++;
+        }
+        (trans === "" || trans === undefined) ? trans = "nope" : null;
+        sheet.innerText = trans;
     } else {
         for (i = 0; i < sheet.length; i++) {
             var trans = "";
@@ -178,6 +160,41 @@ var langDaemon = (id, e) => {
     }
 
 }
+
+
+var langSelect = (ch) => {
+    // fetch and store to mem
+    if (!localStorage.lang) {
+        rstate();
+        return;
+    }
+    // fetch localst lang file then to lang var
+    fetch(`/assets/lang/core/${localStorage.lang}.txt`).then(async (res) => {
+        lang = await res.text();
+        langDaemon('head', 1);
+        langDaemon('back', 1);
+        langDaemon('next', 1);
+        langDaemon('lbl', 1);
+        langDaemon('introtxt', 'm');
+        langDaemon('sel', 1);
+        langDaemon('start', 1);
+        langDaemon('by', 1);
+        langDaemon('pad');
+        langDaemon('e-ans');
+        langDaemon('e-done');
+
+        ids = Object.keys(JSON.parse(localStorage.Routes));
+        ids.map((id) => {
+            if (id === "play" || id === "" || id === "ulang") return;
+            langDaemon(id);
+        });
+
+        rstate();
+    }).catch((e)=>{
+        console.log(e);
+    });
+}
+
 
 var imgFit = (id) => {
     var n = document.getElementById(id);
@@ -202,7 +219,6 @@ var gamef = () => {
     });
 }
 
-langSelect();
 var gdat, lvl, round, ans, sess, mix = 0, ff = 0;
 
 var game = (n) => {
@@ -216,6 +232,7 @@ var game = (n) => {
 }
 
 gamef();
+
 var gbuild = () => {
     document.getElementById('q').innerText = "";
     document.getElementById('count').innerText = "";
@@ -303,9 +320,6 @@ var gbuild = () => {
                 if (mix !== 0) {
                     return;
                 }
-
-
-
 
                 img = document.getElementById('aimg');
                 img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}a.jpg`;
@@ -438,3 +452,28 @@ if (window.navigator.onLine !== true) {
     inpb(1);
     uit('e-net', 1);
 } else inpb(0);
+
+var runit = () => {
+    localStorage.runit = "ok";
+    localStorage.lang = document.getElementById('ulang').value;
+    uit('intro', 0);
+    uit('pad', 1);
+}
+
+if(localStorage.runit!=="ok") {
+    uit('intro', 1);
+} else {
+    uit('pad', 1);
+    langSelect();
+}
+
+
+ulang = document.getElementById('ulang');
+ulang.onchange = () => {
+    localStorage.lang = ulang.value;
+    ulang.disabled = true;
+    // if(ulang.value === "" && localStorage.runit!=="ok") {
+    //     window.location.reload();
+    // }
+    langSelect();
+}

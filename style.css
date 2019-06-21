@@ -54,17 +54,29 @@ button:focus {
     display: block;
     margin: 0 auto;
     margin-top: 10px;
-    padding: 15px;
-    width: 70%;
+    padding: 13px;
+    width: 65%;
     
     border-radius: 12px;
     border: 2px solid #fff;
     background: rgba(255, 255, 255, 0);
-    color: white;
     /* background-color: #497959; */
 
 }
 
+.nav {
+    color: white;
+
+}
+
+select {
+    width: 40%;
+    padding: 5px;
+    /* display: block; */
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-bottom: 22px;
+}
 .navb {
     display: block;
     margin: 0 auto;
@@ -141,11 +153,24 @@ button:focus {
     margin-bottom: 50px;
 }
 
+#intro, #pad {
+    display: none;
+}
+
 /* Frame */
 
 img {
     border-radius: 6px;
 }
+
+#intro {
+    font-size: 40%;
+    line-height: 28px;
+    font-family: 'Helvetica';
+    color: #fff;
+}
+
+
 
 .overlay {
     display: none;

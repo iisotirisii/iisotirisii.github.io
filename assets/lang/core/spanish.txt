@@ -1,0 +1,95 @@
+﻿ENGLISH - SPANISH
+
+By Soltris Delis : Sotiris Delis
+Incorrect answer : Respuesta incorrecta
+Try again : Inténtalo de nuevo
+Round completed : Ronda completada
+Maths Made Easy : Matemáticas de Primer Grado
+Back :  Atrás
+Ok :  De acuerdo
+Please try again : Intenta de nuevo
+Correct Answer : Respuesta Correcta 
+Next level : Próximo nivel
+Task  : Tarea
+Where to pace the next Dot? : ¿Dónde marcar el siguiente Punto?
+Count to 5 : Cuenta hasta 5
+Hidden fingers up to 5 : Dedos Escondidos hasta 5
+Sums up to 5 : Sumas hasta 5
+Subtract up to 5 : Restas hasta 5
+Making 3 : Hacer el 3
+Making 4  : Hacer el 4
+Making 5 : Hacer el 5
+
+Count To 10 : Contar hasta 10
+Hidden Fingers up to 10 : Dedos escondidos hasta 10
+Count and Backwards up to 10 : Contar y retroceder hasta 10
+Sums up  to 10 : Sumas hasta el 10
+Subtract up to 10 : Restas hasta el 10
+Count and Backwards by 2 : Cuenta y Retrocede por 2 
+Making 6 : Hacer el 6
+Making 7 : Hacer el 7
+Making 8 : Hacer el 8
+Making 9 : Hacer el 9
+Making 10 : Hacer el 10
+
+
+Count and Backwards between 10 and 20: Cuenta y Retrocede entre 10 y 20
+Count and Backwards by 2 up to 20 : Cuenta y Retrocede por 2 hasta el 20
+Sums up to 20 - Case 1 : Sumas hasta el 20 – Caso 1
+Sums up to 20 - Case 2 : Sumas hasta el 20 – Caso 2
+Subtract within 20 - Case 1 : Restas hasta el 20 – Caso 1
+Subtract within 20 - Case 2: Restas hasta el 20 – Caso 2
+
+
+Up to 100 : Hasta 100
+Even : Par
+Odd : Impar
+
+
+Add Doublets: Añadir dobletes
+Addition with 3 Numbers upto 10 : Suma con 3 Números hasta 10
+Addition with 3 Numbers upto 20: Suma con 3 Números hasta 20
+Cumulative law of Addition: Ley acumulativa de la Suma
+Property Subtraction : Propiedades de la Resta
+Abacus up to 100 : Ábaco hasta 100
+Addition with Abacus : Sumas con ábaco
+Subtraction with Abacus : Restas con ábaco
+Abacus upto 1000 : Ábaco hasta 1000
+Multiplication : Multiplicación
+Relate Addition and Multiplication : Relacionar la Suma y la Multiplicación
+Cumulative law of Multiplication : Ley acumulativa de la Multiplicación
+Multiplication Problems : Problemas de Multiplicación
+Multiplication - Division : Multiplicación - División
+Division a : División caso a
+Division b : División caso b
+
+
+Counting : contando 
+sum : suma
+Up to 5 : hasta 5
+Up to 10 : hasta 10
+Up to 20 : hasta 20
+Up To 100 : hasta 100
+Addition - Subtraction : Suma - Resta
+Abacus : Ábaco
+Play again : Juega de nuevo
+Next task : Siguiente tarea
+Repeat question : Repetir pregunta
+Next question : Siguiente pregunta
+
+Task 1 : Tarea 1
+Task 2 : Tarea 2
+Task 3 : Tarea 3
+Task 4 : Tarea 4
+Task 5 : Tarea 5
+Task 6 : Tarea 6
+Task 7 : Tarea 7
+Task 8 : Tarea 8
+Task 9 : Tarea 9
+Task 10 : Tarea 10
+Task 11 : Tarea 11
+Task 12 : Tarea 12
+
+
+Previous Task : Tarea Anterior
+Count and Backwards by 2 up to 20 : Cuenta y Retrocede por 2 hasta el 20

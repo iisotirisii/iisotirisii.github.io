@@ -20,12 +20,12 @@ Making 4  : 4-ը կազմել
 Making 5 : 5-ը կազմել
 
 
-
-
 Count to 10 : Մինչեւ 10 համրէ՛
-Hidden Fingers up to 10 : Պահուած մատիկներ մինչեւ 10
+Hidden fingers up to 10 : Պահուած մատիկներ մինչեւ 10
+Hidden fingers up to 10 : Պահուած մատիկներ մինչեւ 5
 Count and Backwards up to 10 : 10-էն իջի՛ր մէկիկ-մէկիկ
 Sums up  to 10 : Մինչեւ 10 գումարում
+Sums up  to 5 : Մինչեւ 5 գումարում
 Subtract up to 10 : Մինչեւ 10 հանում
 Count and Backwards by 2 : Մինչեւ 10 բարձրացի՛ր եւ ապա իջի՛ր 2-2
 Making 6 : 6-ը կազմել
@@ -33,8 +33,6 @@ Making 7 : 7-ը կազմել
 Making 8 : 8-ը կազմել
 Making 9 : 9-ը կազմել
 Making 10 : 10-ը կազմել
-
-
 
 
 Count and Backwards between 10 and 20: 10-20 բարձրացի՛ր եւ իջի՛ր մէկիկ-մէկիկ
@@ -45,13 +43,9 @@ Subtract up to 20-Case 1 : Մինչեւ 20 հանում Ա.
 Subtract up to 20-Case 2: Մինչեւ 20 հանում Բ.
 
 
-
-
 Up to 100 : Մինչեւ 100
 Even : Զոյգ
 Odd : Կենտ
-
-
 
 
 Add doublets: Զոյգեր գումարէ՛
@@ -61,18 +55,10 @@ Cumulative law of Addition: Գումարման շրջման յատկութիւն
 Property Subtraction : Հանման յատկութիւն
 
 
-
-
-
-
-
-
-Abacus up to 100 : Մինչեւ 1ՕՕ աղիւսակ
-Addition with Abacus : Աղիւսակով գումարում
+Abacus upto 100 : Մինչեւ 1ՕՕ աղիւսակ
+Addition with abacus : Աղիւսակով գումարում
 Subtraction with abacus : Աղիւսակով հանում
 Abacus up to 1000 : Մինչեւ 1ՕՕՕ աղիւսակ
-
-
 
 
 Multiplication : Բազմապատկում
@@ -84,13 +70,11 @@ Division case a : Բաժանում Ա.
 Division case b : Բաժանում Բ.
 
 
-
-
 Counting : Համրել
 Sum : Գումար
-up to 5 : Մինչեւ 5
-up to 10 : Մինչեւ 10
-up to 20 : Մինչեւ 20
+Up to 5 : Մինչեւ 5
+Up to 10 : Մինչեւ 10
+Up to 20 : Մինչեւ 20
 Addition-Subtraction : Գումարում- Հանում
 Abacus : Աղիւսակ
 Play again : Կրկի՛ն խաղա
@@ -109,5 +93,28 @@ Task 9 : Վարժութիւն 9
 Task 10 : Վարժութիւն 10
 Task 11 : Վարժութիւն 11
 Task 12 : Վարժութիւն 12
- Previous Task : Նախորդ վարժութիւն
- Count and Backwards by 2 up to 20 : Մինչեւ 20 բրձրացի՛ր եւ ապա իջի՛ր 2-2
+Previous Task : Նախորդ վարժութիւն
+Count and Backwards by 2 up to 20 : Մինչեւ 20 բրձրացի՛ր եւ ապա իջի՛ր 2-2
+
+
+
+
+Hidden fingers up to 5 : Թաքնված մատները մինչեւ 5 տարեկան
+Addition - Subtraction : Լրացում `հանում
+Multiplication - Division : Բազմապատկում - բաժին
+Division a : Բաժին a
+Division b : Բաժին b
+Subtraction with abacus : Ենթաբաժին `հետախուզությամբ
+Abacus upto 1000 : 1000-ի սահմաններում
+Select preferred language : Ընտրեք նախընտրած լեզուն
+Back : Վերադառնալ
+
+#addons
+
+Hi there! : Ողջույն! Ունենալով կոշտ ժամանակ, թվեր եւ մաթեմատիկա: Պարզ մաթեմատիկական գործնական գրքույկով դուք կարող եք սովորել հաճույքով, կարծես խաղ եք խաղում Այն գրավիչ, հեշտ եւ ամբողջովին անվճար է, առանց գովազդի Ձեռք բերեք ժամանակին, ուսումնասիրեք եւ համապատասխան գործեք Դուք կարող եք սովորել `հաշվարկել մինչեւ 5, 10 եւ 20, լրացուցիչ հանումը, abacus (հոգեկան մաթեմատիկա), բաժանումը եւ ինչպես բազմապատկել թվերը
+Where to pace the next 3 dots ? : Ուր գնալ հաջորդ 3 կետերը
+Where to pace the next dot ? : Ուր գնալ հաջորդ 3 կետերը...
+Which dot to remove next ? : Որ կետը կհեռացնի հաջորդին
+Start : Սկսեք
+Next : Հաջորդը 
+By Soltris Delis & Christina Deli : Սոլթրիս Դելիս եւ Քրիստինա Դելի կողմից

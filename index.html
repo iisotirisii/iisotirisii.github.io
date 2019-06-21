@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ef5350" />
     <meta name="keywords" content="'Enjoy Maths', 'Learning', 'Maths', 'Easy'">
-    <meta name="description" content="Enjoy Maths learning like never before">
+    <meta name="description" content="Math workbook for kids and young learner">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" type="text/css" media="screen" href="/lib/skyroute.css" />
@@ -24,28 +24,61 @@
         </div>
         <div class="r">
             <div class="overlay" id="e-ans">
-                <div id="omsg"><h2>Incorrect answer</h2></div>
+                <div id="omsg">
+                    <h2>Incorrect answer</h2>
+                </div>
                 <button id="oact" class="navb" onclick="uit('e-ans', 0);inpb(0)">Try again</button>
             </div>
 
             <div class="overlay" id="e-done">
-                <div><h2>Round completed</h2></div>
+                <div>
+                    <h2>Round completed</h2>
+                </div>
                 <button class="navb" onclick="gameup();uit('e-done', 0);inpb(0)">Ok</button>
             </div>
 
             <div class="overlay" id="e-net">
-                <div><h2>Please check your internet connection</h2></div>
+                <div>
+                    <h2>Please check your internet connection</h2>
+                </div>
             </div>
             <div class="board" id="board">
 
                 <div class="irt" id="home">
-                    <button class="nav" onclick="nav('upTo5')">Up to 5</button>
-                    <button class="nav" onclick="nav('upTo10')">Up to 10</button>
-                    <button class="nav" onclick="nav('upTo20')">Up to 20</button>
-                    <button class="nav" onclick="nav('counting')">Counting</button>
-                    <button class="nav" onclick="nav('addsub')">Addition - Subtraction</button>
-                    <button class="nav" onclick="nav('abacus')">Abacus</button>
-                    <button class="nav" onclick="nav('multiplication_division')">Multiplication - Division</button>
+                    <div id="intro">
+                        <p id="introtxt">
+                            Hi there!
+                            Having a tough time with numbers and math?
+                            With our simple math workbook you can learn with fun, as if you are playing a game!<br/>
+                            It’s engaging, easy & completely free with no ads. 
+                            Take your time to explore and practice accordingly! 
+                            <br>
+                            You can learn - 
+                            Counting up to 5, 10, and 20, addition-subtraction, abacus (mental math), division, and how to multiply numbers. 
+                        </p>
+                        <br>
+                        <div id="sel">Select preferred language</div>
+                        <select id="ulang">
+                            <option value="">English</option>
+                            <option value="hindi">हिन्दी</option>
+                            <option value="armenian">Հայերեն</option>
+                            <option value="arabic">العربية</option>
+                            <option value="chinese">中文</option>
+                            <option value="japanese">日本語</option>
+                            <!-- <option value="greek">Ελληνικά</option> -->
+                            <option value="spanish">Español</option>
+                        </select>
+                        <button onclick="runit();" class="nav" id="start">Start</button>
+                    </div>
+                    <div id="pad">
+                        <button class="nav" onclick="nav('upTo5')">Up to 5</button>
+                        <button class="nav" onclick="nav('upTo10')">Up to 10</button>
+                        <button class="nav" onclick="nav('upTo20')">Up to 20</button>
+                        <button class="nav" onclick="nav('counting')">Counting</button>
+                        <button class="nav" onclick="nav('addsub')">Addition - Subtraction</button>
+                        <button class="nav" onclick="nav('abacus')">Abacus</button>
+                        <button class="nav" onclick="nav('multiplication_division')">Multiplication - Division</button>
+                    </div>
                 </div>
 
                 <div class="rt" id="upTo5">

@@ -1,0 +1,104 @@
+﻿ENGLISH - CHINESE
+
+Incorrect answer : गलत जवाब
+Try again : पुनः प्रयास करें
+Round completed : दौर पूरा हुआ
+Maths Made Easy : मैथ्स मेड ईज़ी
+Back : पीछे को
+Ok : ठीक है
+Select preferred language : पसंदीदा भाषा का चयन करें
+Please try again : कृपया पुन: प्रयास करें
+Correct answer : सही उत्तर
+Next : अगला स्तर
+Task : कार्य
+Where to pace the next dot? : अगले डॉट को कहां रखें?
+Count to 5 : 5 तक गिनें
+Hidden fingers up to 5 : छिपी हुई उंगलियाँ ५ तक
+Sums up to 5 : 5 तक रकम
+Subtract up to 5 : 5 तक घटाएं
+Making 3 : बनाना 3
+Making 4  : बनाना 4
+Making 5 : बनाना 5
+
+Count To 10 : 10 तक गिनें
+Hidden Fingers up to 10 : 10 तक छिपा हुआ फिंगर्स
+Count and Backwards up to 10 : 10 तक गिनती और पीछे की ओर
+Sums up  to 10 : 10 तक रकम
+Subtract up to 10 : 10 तक घटाएं
+Count and Backwards by 2 : गिनती और 2 से पीछे
+Making 6 : बनाना 6
+Making 7 : बनाना 7
+Making 8 : बनाना 8
+Making 9 : बनाना 9
+Making 10 : बनाना 10
+
+
+Count and Backwards between 10 and 20: 10 और 20 के बीच की गिनती और पीछे
+Count and Backwards by 2 up to 20 : गिनती और 20 से 2 तक पीछे
+Sums up to 20 - Case 1 : 20 तक रकम - केस 1
+Sums up to 20 - Case 2 : 20 तक रकम - केस 2
+Subtract within 20 - Case 1 : 20 के भीतर घटाना - केस 1
+Subtract within 20 - Case 2: 20 के भीतर घटाना - केस 2
+
+
+Up to 100 : 100 तक
+Even : सम संख्या
+Odd : विषम संख्या
+
+
+Add Doublets: डबल जोड़ें
+Addition with 3 Numbers upto 10 : 3 संख्याओं के साथ जोड़ 10 तक
+Addition with 3 Numbers upto 20: 3 संख्याओं के साथ जोड़ 20 तक
+Cumulative law of Addition: एडिशन का कम्यूटेटिव कानून
+Property Subtraction : संपत्ति घटाव
+Abacus up to 100 : अबेकस 100 तक
+Addition with Abacus : अबेकस के साथ जोड़
+Subtraction with Abacus : अबेकस के साथ घटाव
+Abacus upto 1000 : अबेकस 1000 तक
+Multiplication : गुणन
+Relate Addition and Multiplication : जोड़ और गुणा संबंधित
+Cumulative law of Multiplication : गुणन का विधि विधान
+Multiplication Problems : गुणन समस्या
+Multiplication - Division : गुणा - भाग
+Division a : डिवीजन a
+Division b : डिवीजन b
+
+
+Counting : गिनती
+sum : योग
+Up to 5 : 5 तक
+Up to 10 : 10 तक
+Up to 20 : 20 तक
+Up To 100 : 100 तक
+Addition - Subtraction : जोड़ - घटाव
+Abacus : अबेकस
+Play again : फिर से खेलना
+Next task : अगला काम
+Repeat question : दोहराने सवाल
+Next question : अगला प्रश्न
+
+Task 1 : कार्य1
+Task 2 : कार्य2
+Task 3 : कार्य3
+Task 4 : कार्य4
+Task 5 : कार्य5
+Task 6 : कार्य6
+Task 7 : कार्य7
+Task 8 : कार्य8
+Task 9 : कार्य9
+Task 10 : कार्य10
+Task 11 : कार्य11
+Task 12 : कार्य12
+
+
+Previous Task : पिछला कार्य
+Count and Backwards by 2 up to 20 : गिनती और 20 से 2 तक पीछे
+
+
+Hi there! : नमस्ते! संख्याओं और गणित के साथ कठिन समय रहा? हमारे सरल गणित कार्यपुस्तिका के साथ आप मज़े के साथ सीख सकते हैं, जैसे कि आप एक खेल खेल रहे हैं! यह बिना किसी विज्ञापन के आकर्षक, आसान और पूरी तरह से मुफ़्त है। अपने समय का पता लगाने और तदनुसार अभ्यास करने के लिए अपना समय ले लो! आप सीख सकते हैं - 5, 10 और 20 तक की गणना, इसके अलावा-घटाव, अबेकस (मानसिक गणित), विभाजन और संख्याओं को कैसे गुणा करें।
+Where to pace the next 3 dots ? : जहां अगले 3 डॉट्स को गति देने के लिए
+Where to pace the next dot ? : अगले बिंदु को गति देने के लिए कहां?
+Which dot to remove next ? : आगे कौन सी बिंदी निकालनी है?
+Start : शुरु
+By Soltris Delis & Christina Deli : सोलट्रिस डेलिस और क्रिस्टीना डेली द्वारा
+
