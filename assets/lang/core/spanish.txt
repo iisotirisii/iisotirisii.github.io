@@ -1,12 +1,12 @@
 ﻿ENGLISH - SPANISH
 
-By Soltris Delis : Sotiris Delis
 Incorrect answer : Respuesta incorrecta
 Try again : Inténtalo de nuevo
 Round completed : Ronda completada
 Maths Made Easy : Matemáticas de Primer Grado
-Back :  Atrás
-Ok :  De acuerdo
+Back : Atrás
+Ok : De acuerdo
+Select preferred language : Seleccione el idioma preferido
 Please try again : Intenta de nuevo
 Correct Answer : Respuesta Correcta 
 Next level : Próximo nivel
@@ -93,3 +93,11 @@ Task 12 : Tarea 12
 
 Previous Task : Tarea Anterior
 Count and Backwards by 2 up to 20 : Cuenta y Retrocede por 2 hasta el 20
+
+
+Hi there! : Hola ahi Tener un tiempo duro con los números y las matemáticas? ¡Con nuestro sencillo libro de matemáticas puedes aprender con diversión, como si estuvieras jugando un juego! Es atractivo, fácil y completamente gratis, sin anuncios. ¡Tómate tu tiempo para explorar y practicar en consecuencia! Puede aprender: contar hasta 5, 10 y 20, sumar y restar, ábaco (matemáticas mentales), división y cómo multiplicar números.
+Where to place the next 3 dots ? : Dónde colocar los próximos 3 puntos?
+Where to place the next dot ? : ¿Dónde marcar el siguiente punto?
+Which dot to remove next ? : ¿Qué punto eliminar a continuación?
+Start : comienzo
+By Sotiris Delis & Christina Deli : Por Sotiris Delis & Christina Deli
