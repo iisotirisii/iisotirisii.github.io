@@ -116,9 +116,12 @@ var langSelect = (ch) => {
         lang = await res.text();
         langDaemon('head', 1);
         langDaemon('back', 1);
+        langDaemon('next', 1);
+        langDaemon('lbl', 1);
         langDaemon('by', 1);
         langDaemon('e-ans');
         langDaemon('e-done');
+
 
         ids = Object.keys(JSON.parse(localStorage.Routes));
         ids.map((id) => {
@@ -199,7 +202,6 @@ var gamef = () => {
     });
 }
 
-localStorage.lang = "";
 langSelect();
 var gdat, lvl, round, ans, sess, mix = 0, ff = 0;
 
@@ -267,6 +269,7 @@ var gbuild = () => {
                 } else {
                     mix = 0;
                     document.getElementById('q').innerText = g["set"][ses]["ques"];
+                    langDaemon('q', 1);
                     document.getElementById('count').innerText = `${sess + 1}/${g["set"][ses]["opts"].length}`
                     img = document.getElementById('qimg');
                     img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}.${sess + 1}q.jpg`;

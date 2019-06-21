@@ -24,17 +24,17 @@
         </div>
         <div class="r">
             <div class="overlay" id="e-ans">
-                <div id="omsg">Incorrect answer</div>
+                <div id="omsg"><h2>Incorrect answer</h2>></div>
                 <button id="oact" class="navb" onclick="uit('e-ans', 0);inpb(0)">Try again</button>
             </div>
-
+            
             <div class="overlay" id="e-done">
-                <div>Round completed</div>
+                <div><h2>Round completed</h2></div>
                 <button class="navb" onclick="gameup();uit('e-done', 0);inpb(0)">Ok</button>
             </div>
 
             <div class="overlay" id="e-net">
-                <div>Please check your internet connection</div>
+                <div><h2>Please check your internet connection</h2></div>
             </div>
             <div class="board" id="board">
 
@@ -136,7 +136,7 @@
                     </div>
                     <div id="ques">
                         <div id="q"></div>
-                        <img id="qimg"><br>
+                        <img id="qimg">
                         <div id="count"></div>
                         <button class="nv" id="op1" onclick="next(this);"></button>
                         <button class="nv" id="op2" onclick="next(this);"></button>

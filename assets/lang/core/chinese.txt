@@ -2,14 +2,14 @@
 
 By Soltris Delis : 作者：Soltris Delis
 Incorrect answer : 错误答案
+Correct answer : 正确答案
 Try again : 再试一次
 Round completed : 圆形完成
 Maths Made Easy : 令数学变得更简单
 Back : 背部
 Ok : 好
 Please try again : 请再试一次
-Correct Answer : 正确答案 
-Next level : 下一级
+Next : 下一个
 Task  : 任务
 Where to pace the next Dot? : 下一个小数点应放在哪里？
 Count to 5 : 数到5
@@ -19,6 +19,10 @@ Subtract up to 5 : 减至5
 Making 3 : 制作3
 Making 4  : 制作4
 Making 5 : 制作5
+
+Where to pace the next 3 dots ? : 在接下来的3个点的位置？
+Where to pace the next dot ? : 下一个点的步伐在哪里？
+Which dot to remove next ? : 下一个要删除的点？
 
 Count To 10 : 数到10
 Hidden Fingers up to 10 : 隐藏手指至10只
@@ -89,7 +93,6 @@ Task 9 : 任务9
 Task 10 : 任务10
 Task 11 : 任务11
 Task 12 : 任务12
-
 
 Previous Task : 之前的任务
 Count and Backwards by 2 up to 20 : 以2-20计数和向后倒数
