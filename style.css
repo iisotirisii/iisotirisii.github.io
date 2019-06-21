@@ -56,12 +56,27 @@ button:focus {
     margin-top: 10px;
     padding: 13px;
     width: 65%;
-    
     border-radius: 12px;
     border: 2px solid #fff;
     background: rgba(255, 255, 255, 0);
     /* background-color: #497959; */
 
+}
+
+#setx {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 110%;
+    /* float: right; */
+    /* margin-right: 5px; */
+    display: none;
+    /* margin: 0 96%; */
+    position: absolute;
+    top: 1%;
+    left: 97%;
+    /* position: relative; */
+    /* right: 10; */
 }
 
 .nav {

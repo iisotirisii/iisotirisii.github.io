@@ -55,7 +55,7 @@ var addticks = (t) => {
 }
 
 var tickall = () => {
-    var ct = 0
+    var ct = 0;
     try {
         rr = Object.keys(JSON.parse(localStorage.Routes));
     } catch (e) {
@@ -71,9 +71,8 @@ var tickall = () => {
                 }
             }
 
-            // console.log(full);
             if (full === ec.length) {
-                addticks(document.getElementById('home').children[ct]);
+                addticks(document.getElementById('pad').children[ct]);
             }
             ct++;
 
@@ -174,7 +173,7 @@ var langSelect = (ch) => {
     fetch(`/assets/lang/core/${localStorage.lang}.txt`).then(async (res) => {
         // alert('fetched file')
         lang = await res.text();
-        langDaemon('head', 1);
+        langDaemon('headx', 1);
         langDaemon('back', 1);
         langDaemon('next', 1);
         langDaemon('lbl', 1);
@@ -197,7 +196,7 @@ var langSelect = (ch) => {
 
         rstate();
     }).catch((e)=>{
-        console.log(e);
+
     });
 }
 
@@ -464,22 +463,29 @@ var runit = () => {
     localStorage.lang = document.getElementById('ulang').value;
     uit('intro', 0);
     uit('pad', 1);
+    uit('setx', 1);
+
 }
 
 if(localStorage.runit!=="ok") {
     uit('intro', 1);
 } else {
     uit('pad', 1);
+    uit('setx', 1);
     langSelect();
 }
 
 
 ulang = document.getElementById('ulang');
-ulang.onchange = () => {
-    localStorage.lang = ulang.value;
-    ulang.disabled = true;
-    // if(ulang.value === "" && localStorage.runit!=="ok") {
-    //     window.location.reload();
-    // }
-    langSelect();
+try {
+    ulang.onchange = () => {
+        localStorage.lang = ulang.value;
+        ulang.disabled = true;
+        // if(ulang.value === "" && localStorage.runit!=="ok") {
+        //     window.location.reload();
+        // }
+        langSelect();
+    }
+} catch(e) {
+
 }
