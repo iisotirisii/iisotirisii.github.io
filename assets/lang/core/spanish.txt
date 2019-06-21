@@ -1,5 +1,7 @@
 ﻿ENGLISH - SPANISH
 
+Hi there! : Hola ahi Tener un tiempo duro con los números y las matemáticas? ¡Con nuestro sencillo libro de matemáticas puedes aprender con diversión, como si estuvieras jugando un juego! Es atractivo, fácil y completamente gratis, sin anuncios. ¡Tómate tu tiempo para explorar y practicar en consecuencia! Puede aprender: contar hasta 5, 10 y 20, sumar y restar, ábaco (matemáticas mentales), división y cómo multiplicar números.
+By Sotiris Delis & Christina Deli : Por Sotiris Delis & Christina Deli
 Incorrect answer : Respuesta incorrecta
 Try again : Inténtalo de nuevo
 Round completed : Ronda completada
@@ -11,7 +13,6 @@ Please try again : Intenta de nuevo
 Correct Answer : Respuesta Correcta 
 Next level : Próximo nivel
 Task  : Tarea
-Where to pace the next Dot? : ¿Dónde marcar el siguiente Punto?
 Count to 5 : Cuenta hasta 5
 Hidden fingers up to 5 : Dedos Escondidos hasta 5
 Sums up to 5 : Sumas hasta 5
@@ -23,7 +24,7 @@ Making 5 : Hacer el 5
 Count To 10 : Contar hasta 10
 Hidden Fingers up to 10 : Dedos escondidos hasta 10
 Count and Backwards up to 10 : Contar y retroceder hasta 10
-Sums up  to 10 : Sumas hasta el 10
+Sums up to 10 : Sumas hasta el 10
 Subtract up to 10 : Restas hasta el 10
 Count and Backwards by 2 : Cuenta y Retrocede por 2 
 Making 6 : Hacer el 6
@@ -31,6 +32,11 @@ Making 7 : Hacer el 7
 Making 8 : Hacer el 8
 Making 9 : Hacer el 9
 Making 10 : Hacer el 10
+
+
+Settings : Configuraciones
+Reset progress : Restablecer el progreso
+Reset language : Restablecer idioma
 
 
 Count and Backwards between 10 and 20: Cuenta y Retrocede entre 10 y 20
@@ -41,7 +47,6 @@ Subtract within 20 - Case 1 : Restas hasta el 20 – Caso 1
 Subtract within 20 - Case 2: Restas hasta el 20 – Caso 2
 
 
-Up to 100 : Hasta 100
 Even : Par
 Odd : Impar
 
@@ -95,9 +100,8 @@ Previous Task : Tarea Anterior
 Count and Backwards by 2 up to 20 : Cuenta y Retrocede por 2 hasta el 20
 
 
-Hi there! : Hola ahi Tener un tiempo duro con los números y las matemáticas? ¡Con nuestro sencillo libro de matemáticas puedes aprender con diversión, como si estuvieras jugando un juego! Es atractivo, fácil y completamente gratis, sin anuncios. ¡Tómate tu tiempo para explorar y practicar en consecuencia! Puede aprender: contar hasta 5, 10 y 20, sumar y restar, ábaco (matemáticas mentales), división y cómo multiplicar números.
+
 Where to place the next 3 dots ? : Dónde colocar los próximos 3 puntos?
 Where to place the next dot ? : ¿Dónde marcar el siguiente punto?
 Which dot to remove next ? : ¿Qué punto eliminar a continuación?
 Start : comienzo
-By Sotiris Delis & Christina Deli : Por Sotiris Delis & Christina Deli

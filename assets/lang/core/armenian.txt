@@ -1,5 +1,5 @@
 ﻿ENGLISH -ARMENIAN
-
+By Sotiris Delis & Christina Deli : Ըստ Sotiris Delis & Christina Deli
 Incorrect answer : սխալ պատասխանը
 Try again : փորձեք կրկին
 Round completed : կլոր ավարտվել
@@ -11,21 +11,19 @@ Please try again : Կրկի՛ն փորձէ
 Correct Answer : Ճիշդ
 Next : Յաջորդ աստիճան
 Task  : Վարժութիւն
-Where to pace the next Dot? : Ո՞ւր է յաջորդ տեղը
 Count to 5 : Մինչեւ 5 համրէ՛
-Hidden Fingers up to 5 : Պահուած մատիկներ մինչեւ 5
-Sums up  to 5 : Մինչեւ 5 գումարում
+Hidden fingers up to 5 : Պահուած մատիկներ մինչեւ 5
+Sums up to 5 : Մինչեւ 5 գումարում
 Subtract up to 5 : Մինչեւ 5 հանում
 Making 3 : 3-ը կազմել
-Making 4  : 4-ը կազմել
+Making 4 : 4-ը կազմել
 Making 5 : 5-ը կազմել
 
-Count to 10 : Մինչեւ 10 համրէ՛
-Hidden fingers up to 10 : Պահուած մատիկներ մինչեւ 10
-Hidden fingers up to 10 : Պահուած մատիկներ մինչեւ 5
+Count To 10 : Մինչեւ 10 համրէ՛
+Hidden Fingers up to 10 : Պահուած մատիկներ մինչեւ 10
 Count and Backwards up to 10 : 10-էն իջի՛ր մէկիկ-մէկիկ
-Sums up  to 10 : Մինչեւ 10 գումարում
-Sums up  to 5 : Մինչեւ 5 գումարում
+Sums up to 10 : Մինչեւ 10 գումարում
+Sums up to 5 : Մինչեւ 5 գումարում
 Subtract up to 10 : Մինչեւ 10 հանում
 Count and Backwards by 2 : Մինչեւ 10 բարձրացի՛ր եւ ապա իջի՛ր 2-2
 Making 6 : 6-ը կազմել
@@ -35,35 +33,36 @@ Making 9 : 9-ը կազմել
 Making 10 : 10-ը կազմել
 
 
+Settings : Կարգավորումներ
+Reset progress : Վերագործարկեք առաջընթացը
+Reset language : Վերագործարկեք լեզուն
+
 Count and Backwards between 10 and 20: 10-20 բարձրացի՛ր եւ իջի՛ր մէկիկ-մէկիկ
 Count and Backwards by 2 up to 20 : 10-20 բարձրացի՛ր եւ իջի՛ր 2-2
-Sums up  to 20-Case 1 : Մինչեւ 20 գումարում Ա.
-Sums up  to 20-Case 2 : Մինչեւ 20 գումարում Բ.
-Subtract up to 20-Case 1 : Մինչեւ 20 հանում Ա.
-Subtract up to 20-Case 2: Մինչեւ 20 հանում Բ.
-
-
-Up to 100 : Մինչեւ 100
+Sums up to 20 - Case 1 : Մինչեւ 20 գումարում Ա.
+Sums up to 20 - Case 2 : Մինչեւ 20 գումարում Բ.
+Subtract within 20 - Case 1 : Մինչեւ 20 հանում Ա.
+Subtract within 20 - Case 2: Մինչեւ 20 հանում Բ.
 Even : Զոյգ
 Odd : Կենտ
 
 
-Add doublets: Զոյգեր գումարէ՛
-Addition with 3 Numbers up to 10 : Մինչեւ 10, 3 թիւով գումարում
-Addition with 3 Numbers up to 20: Մինչեւ 20, 3 թիւով գումարում
+Add Doublets: Զոյգեր գումարէ՛
+Addition with 3 Numbers upto 10 : Մինչեւ 10, 3 թիւով գումարում
+Addition with 3 Numbers upto 20: Մինչեւ 20, 3 թիւով գումարում
 Cumulative law of Addition: Գումարման շրջման յատկութիւն
 Property Subtraction : Հանման յատկութիւն
 Abacus upto 100 : Մինչեւ 1ՕՕ աղիւսակ
-Addition with abacus : Աղիւսակով գումարում
-Subtraction with abacus : Աղիւսակով հանում
-Abacus up to 1000 : Մինչեւ 1ՕՕՕ աղիւսակ
+Addition with Abacus : Աղիւսակով գումարում
+Subtraction with Abacus : Աղիւսակով հանում
+Abacus upto 1000 : Մինչեւ 1ՕՕՕ աղիւսակ
 Multiplication : Բազմապատկում
 Relate Addition and Multiplication : Գումարում-բազմապատկում յարաբերութիւն
 Cumulative law of Multiplication : Բազմապատկման շրջման յատկութիւն
 Multiplication Problems : Բազմապատկումով խնդիրներ
-Multiplication-Division : Բազմապատկում-բաժանում
-Division case a : Բաժանում Ա.
-Division case b : Բաժանում Բ.
+Multiplication - Division : Բազմապատկում-բաժանում
+Division a : Բաժանում Ա.
+Division b : Բաժանում Բ.
 
 
 Counting : Համրել
@@ -72,12 +71,13 @@ Up to 5 : Մինչեւ 5
 Up to 10 : Մինչեւ 10
 Up to 20 : Մինչեւ 20
 Up To 100 : Մինչեւ 100
-Addition-Subtraction : Գումարում- Հանում
+
+Addition - Subtraction : Գումարում- Հանում
 Abacus : Աղիւսակ
 Play again : Կրկի՛ն խաղա
 Next task : Յաջորդ վարժութիւն
 Repeat question : Հարցումը կրկնէ՛
-Next  question : Յաջորդ հարցում
+Next question : Յաջորդ հարցում
 
 Task 1 : Վարժութիւն 1
 Task 2 : Վարժութիւն 2
@@ -103,4 +103,3 @@ Where to place the next dot ? : Ուր գնալ հաջորդ 3 կետերը...
 Which dot to remove next ? : Որ կետը կհեռացնի հաջորդին
 Start : Սկսեք
 Next : Հաջորդը 
-By Sotiris Delis & Christina Deli : Ըստ Sotiris Delis & Christina Deli

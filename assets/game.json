@@ -806,7 +806,7 @@
                         [3,4,1,2]
                     ],
                     "ans":[1, 2, 3, 4, 1, 2, 3, 4],
-                    "ques" : "Where to pace the next dot ?"
+                    "ques" : "Where to place the next dot ?"
                 }, 
                 {
                     "opts": [

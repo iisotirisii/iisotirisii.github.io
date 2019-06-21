@@ -104,6 +104,7 @@ var rstate = () => {
 
 
 var langDaemon = (id, e) => {
+    // alert('daemon called on ' + id);
     if (!lang) {
         return;
     }
@@ -123,7 +124,7 @@ var langDaemon = (id, e) => {
             }
             j++;
         }
-        // console.log(`${txt} : ${trans}`);
+        // alert(`${txt} : ${trans}`);
         (trans === "" || trans === undefined) ? trans = txt : null;
         sheet.innerText = trans;
     } else if (e === "m") {
@@ -163,6 +164,7 @@ var langDaemon = (id, e) => {
 
 
 var langSelect = (ch) => {
+    // alert('called loop');
     // fetch and store to mem
     if (!localStorage.lang) {
         rstate();
@@ -170,6 +172,7 @@ var langSelect = (ch) => {
     }
     // fetch localst lang file then to lang var
     fetch(`/assets/lang/core/${localStorage.lang}.txt`).then(async (res) => {
+        // alert('fetched file')
         lang = await res.text();
         langDaemon('head', 1);
         langDaemon('back', 1);
@@ -179,9 +182,12 @@ var langSelect = (ch) => {
         langDaemon('sel', 1);
         langDaemon('start', 1);
         langDaemon('by', 1);
+        langDaemon('wallah', 1);
         langDaemon('pad');
         langDaemon('e-ans');
         langDaemon('e-done');
+        langDaemon('rpg');
+        langDaemon('rpl');
 
         ids = Object.keys(JSON.parse(localStorage.Routes));
         ids.map((id) => {

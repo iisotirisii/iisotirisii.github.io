@@ -1,21 +1,33 @@
 ﻿ENGLISH - GREEK
+
+Hi there! : Γεια σου! Έχοντας έναν δύσκολο χρόνο με αριθμούς και μαθηματικά; Με το απλό βιβλίο μαθηματικών μας μπορείτε να μάθετε με διασκέδαση, σαν να παίζετε ένα παιχνίδι! Είναι απασχολημένος, εύκολος και εντελώς δωρεάν χωρίς διαφημίσεις. Πάρτε το χρόνο σας για να εξερευνήσετε και να εξασκηθείτε ανάλογα! Μπορείτε να μάθετε - Μετρώντας μέχρι 5, 10 και 20, προσθήκη-αφαίρεση, άβακας (διανοητική μαθηματική), διαίρεση και πώς να πολλαπλασιάσετε τα νούμερα
+Incorrect answer : Λανθασμένη απάντηση
+Try again : Δοκιμάστε ξανά
+Round completed : Γύρος ολοκληρώθηκε
 Math Made Easy : ΤΑ ΜΑΘΗΜΑΤΙΚΑ ΕΓΙΝΑΝ ΕΥΚΟΛΑ 
+Back : Πίσω
+Ok : Εντάξει
+Select preferred language : Επιλέξτε τη γλώσσα της προτίμησής
 Please try again : Δοκίμασε ξανά
 Correct Answer : Σωστή απάντηση
-Next level : Επόμενο επίπεδο 
+Next : Επόμενο
 Task : Άσκηση
-Where to place the next Dot? : Πού είναι η επόμενη θέση;
+Settings : Ρυθμίσεις
+Reset progress : Επαναφορά προόδου
+Reset language : Επαναφορά γλώσσας
+
 Count to 5 : Μετρώντας ως το 5
-Hidden Fingers up to 5 : Κρυμμένα δάχτυλα ως το 5
+Hidden fingers up to 5 : Κρυμμένα δάχτυλα ως το 5
 Sums up to 5 : Πρόσθεση ως το 5
 Subtract up to 5 : Αφαίρεση ως το 5
 Making 3 : Ζευγαράκια του 3
 Making 4  : Ζευγαράκια του 4
 Making 5 : Ζευγαράκια του 5
-Count to 10 : Μετρώντας ως το 10
+
+Count To 10 : Μετρώντας ως το 10
 Hidden Fingers up to 10 : Κρυμμένα δάχτυλα ως το 10
 Count and Backwards up to 10 : Ανεβαίνω-Κατεβαίνω ως το 10
-Sums up  to 10 : Πρόσθεση ως το 10
+Sums up to 10 : Πρόσθεση ως το 10
 Subtract up to 10 : Αφαίρεση ως το 10
 Count and Backwards by 2 : Ανεβαίνω-Κατεβαίνω 2-2
 Making 6 : Ζευγαράκια του 6
@@ -23,42 +35,51 @@ Making 7 : Ζευγαράκια του 7
 Making 8 : Ζευγαράκια του 8
 Making 9 : Ζευγαράκια του 9
 Making 10 : Ζευγαράκια του 10
+
+
 Count and Backwards between 10 and 20 : Ανεβαίνω-Κατεβαίνω 10 ως  20
 Count and Backwards by 2 up to 20 : Count kai Backwards apó 2 éos 20
-Sums up  to 20-Case 1 : πρόσθεση ως το 20-Περίπτωση 1
-Sums up  to 20-Case 2 : πρόσθεση ως το 20-Περίπτωση 2
-Subtract up to 20-Case 1 : Αφαίρεση ως το 20-Περίπτωση 1
-Subtract up to 20-Case 2 : Αφαίρεση ως το 20-Περίπτωση 2
-Up to 100 : Ως το 100
+Sums up to 20 - Case 1 : πρόσθεση ως το 20-Περίπτωση 1
+Sums up to 20 - Case 2 : πρόσθεση ως το 20-Περίπτωση 2
+Subtract within 20 - Case 1 : Αφαίρεση ως το 20-Περίπτωση 1
+Subtract within 20 - Case 2 : Αφαίρεση ως το 20-Περίπτωση 2
+
 Even : Ζυγοί αριθμοί
 Odd : Μονοί αριθμοί
-Add doublets : Διπλά αθροίσματα
-Addition with 3 Numbers up to 10 : Πρόσθεση 3 αριθμών ως το 10 
-Addition with 3 Numbers up to 20 : Πρόσθεση 3 αριθμών ως το 20
+
+
+Add Doublets : Διπλά αθροίσματα
+Addition with 3 Numbers upto 10 : Πρόσθεση 3 αριθμών ως το 10 
+Addition with 3 Numbers upto 20 : Πρόσθεση 3 αριθμών ως το 20
 Cumulative law of Addition : Αντιμεταθετική ιδιότητα πρόσθεσης
 Property Subtraction : Ιδιότητα αφαίρεσης
-Abacus up to 100 : ’Αβακας ως το 100
+Abacus upto 100 : ’Αβακας ως το 100
 Addition with Abacus : Πρόσθεση με άβακα
-Subtraction with abacus : Αφσίρεση με άβακα
-Abacus up to 1000 : ’Αβακας ως το 1000
+Subtraction with Abacus : Αφσίρεση με άβακα
+Abacus upto 1000 : ’Αβακας ως το 1000
 Multiplication : Πολλαπλασιασμός
 Relate Addition and Multiplication : Σχέση πρόσθεσης και πολλαπλασιασμού
 Cumulative law of Multiplication : Αντιμεταθετική ιδιότητα πολλαπλασιασμού
 Multiplication Problems : Προβλήματα πολλαπλασιασμού
-Multiplication-Division : Πολλαπλασιασμός-Διαίρεση
-Division case a : Διαίρεση περίπτωση Α
-Division case b : Διαίρεση περίπτωση Β
+Multiplication - Division : Πολλαπλασιασμός-Διαίρεση
+Division a : Διαίρεση περίπτωση Α
+Division b : Διαίρεση περίπτωση Β
+
+
 Counting : Μετρώντας
 Sum : Πρόσθεση
-up to 5 : Ως το 5
-up to 10 : Ως το 10
-up to 20 : Ως το 20
-Addition- Subtraction : Πρόσθεση - Αφαίρεση
+Up to 5 : Ως το 5
+Up to 10 : Ως το 10
+Up to 20 : Ως το 20
+Up To 100 :  Ως το 100
+
+Addition - Subtraction : Πρόσθεση - Αφαίρεση
 Abacus : Άβακας
 Play again : Παίξε ξανά
 Next task : Επόμενο επίπεδο
 Repeat question : Επανάληψη ερώτησης
-Next   question : Επόμενη  ερώτηση
+Next question : Επόμενη  ερώτηση
+
 Task 1 : Άσκηση 1
 Task 2 : Άσκηση 2
 Task 3 : Άσκηση 3
@@ -71,10 +92,12 @@ Task 9 : Άσκηση 9
 Task 10 : Άσκηση 10
 Task 11 : Άσκηση 11
 Task 12 : Άσκηση 12
-Hi there! : Γεια σου! Έχοντας έναν δύσκολο χρόνο με αριθμούς και μαθηματικά; Με το απλό βιβλίο μαθηματικών μας μπορείτε να μάθετε με διασκέδαση, σαν να παίζετε ένα παιχνίδι! Είναι απασχολημένος, εύκολος και εντελώς δωρεάν χωρίς διαφημίσεις. Πάρτε το χρόνο σας για να εξερευνήσετε και να εξασκηθείτε ανάλογα! Μπορείτε να μάθετε - Μετρώντας μέχρι 5, 10 και 20, προσθήκη-αφαίρεση, άβακας (διανοητική μαθηματική), διαίρεση και πώς να πολλαπλασιάσετε τα νούμερα
-Where to pace the next 3 dots ? : Πού να βάλεις τα επόμενα 3 κουκκίδες;
-Where to pace the next dot ? : Πού να ρυθμίσετε την επόμενη κουκκίδα;
+
+
+
+Where to place the next 3 dots ? : Πού να βάλεις τα επόμενα 3 κουκκίδες;
+Where to place the next dot ? : Πού να ρυθμίσετε την επόμενη κουκκίδα;
 Which dot to remove next ? : Ποια κουκίδα θα αφαιρεθεί στη συνέχεια;
 Start : Αρχή
 Next : Επόμενο
-By Soltris Delis & Christina Deli : Από τον Σολτρίρη Ντέλη & την Χριστίνα Deli
+By Sotiris Delis & Christina Deli : Από τον Σωτήρη Δελή και την Χριστίνα Deli

@@ -1,7 +1,7 @@
 ﻿ENGLISH - CHINESE
 
 Hi there! : 嗨，您好！ 在数字和数学方面度过了难关？ 通过我们简单的数学练习册，您可以充满乐趣地学习，就好像您正在玩游戏一样！没有广告，它很有吸引力，简单而且完全免费。 花点时间去探索和练习！您可以学习 - 计算最多5,10和20，加法减法，算盘（心理数学），除法以及如何乘以数字
-By Soltris Delis & Christina Deli : 作者 - Soltris Delis 和 Christina Deli
+By Sotiris Delis & Christina Deli : 作者 - Soltris Delis 和 Christina Deli
 Incorrect answer : 错误答案
 Correct answer : 正确答案
 Try again : 再试一次
@@ -22,6 +22,11 @@ Making 3 : 制作3
 Making 4  : 制作4
 Making 5 : 制作5
 
+Settings : 设置
+Reset progress : 重置进度
+Reset language : 重置语言
+
+
 Where to pace the next 3 dots ? : 在接下来的3个点的位置？
 Where to pace the next dot ? : 下一个点的步伐在哪里？
 Which dot to remove next ? : 下一个要删除的点？
@@ -29,7 +34,7 @@ Which dot to remove next ? : 下一个要删除的点？
 Count To 10 : 数到10
 Hidden Fingers up to 10 : 隐藏手指至10只
 Count and Backwards up to 10 : 计数和向后倒数至10
-Sums up  to 10 : 加至10
+Sums up to 10 : 加至10
 Subtract up to 10 : 减至10
 Count and Backwards by 2 : 以2计数和向后倒数
 Making 6 : 制作6

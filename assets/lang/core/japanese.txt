@@ -1,5 +1,6 @@
 ﻿ENGLISH - JAPANESE
 
+By Sotiris Delis & Christina Deli : Sotiris Delis＆Christina Deli著
 Incorrect answer : 不正解
 Try again : 再試行する
 Round completed : ラウンド完了
@@ -8,22 +9,22 @@ Back : 戻る
 Ok : オーケー
 Select preferred language : ご希望の言語を選択
 Please try again : もう一度お試しください
-Correct Answer : 正解
+Correct answer : 正解
 Next : 次のレベル
 Task : 問題
-Where to pace the next Dot? : 次の点はどこに？
+
 Count to 5 : 5まで数えよう
-Hidden Fingers up to 5 : 5まで指で数える
-Sums up  to 5 : 5までの足し算
+Hidden fingers up to 5 : 5まで指で数える
+Sums up to 5 : 5までの足し算
 Subtract up to 5 : 5までの引き算
 Making 3 : 3にしよう
 Making 4 : 4にしよう
 Making 5 : 5にしよう
 
-Count to 10 : 10まで数えよう
+Count To 10 : 10まで数えよう
 Hidden Fingers up to 10 : 10まで指で数える
 Count and Backwards up to 10 : 1から10まで数えよう（逆も）
-Sums up  to 10 : 10までの足し算
+Sums up to 10 : 10までの足し算
 Subtract up to 10 : 10までの引き算
 Count and Backwards by 2 : 2つ飛ばしで数えよう（逆も）
 Making 6 : 6にしよう
@@ -35,10 +36,10 @@ Making 10 : 10にしよう
 
 Count and Backwards between 10 and 20 : 10から20まで数えよう（逆も）
 Count and Backwards by 2 up to 20 : 2つ飛ばしで20まで数えよう（逆も）
-Sums up  to 20-Case 1 : 20までの足し算
-Sums up  to 20-Case 2 : 20までの足し算
-Subtract up to 20-Case 1 : 20までの引き算セット1
-Subtract up to 20-Case 2 : 20までの引き算セット2
+Sums up to 20 - Case 1 : 20までの足し算
+Sums up to 20 - Case 2 : 20までの足し算
+Subtract within 20 - Case 1 : 20までの引き算セット1
+Subtract within 20 - Case 2 : 20までの引き算セット2
 
 
 Up to 100 : 100まで
@@ -46,35 +47,40 @@ Even : 偶数
 Odd : 奇数
 
 
-Add doublets : ペアを追加
-Addition with 3 Numbers up to 10 : 3つの数字で10までの足し算
-Addition with 3 Numbers up to 20 : 3つの数字で20までの足し算
+Add Doublets : ペアを追加
+Addition with 3 Numbers upto 10 : 3つの数字で10までの足し算
+Addition with 3 Numbers upto 20 : 3つの数字で20までの足し算
 Cumulative law of Addition : 足し算の交換法則
 Property Subtraction : 引き算
 Abacus up to 100 : 100までのそろばん
 Addition with Abacus : そろばんの足し算
-Subtraction with abacus : そろばんの引き算
-Abacus up to 1000 : 1000までのそろばん
+Subtraction with Abacus : そろばんの引き算
+Abacus upto 1000 : 1000までのそろばん
 Multiplication : 掛け算
 Relate Addition and Multiplication : 掛け算と割り算の比較
 Cumulative law of Multiplication : 掛け算の交換法則
 Multiplication Problems : 掛け算の問題
-Multiplication-Division : 掛け算-割り算
-Division case a : 割り算セットA
-Division case b : 割り算B
+Multiplication - Division : 掛け算-割り算
+Division a : 割り算セットA
+Division b : 割り算B
 
 
-counting : 数える
+Settings : 設定
+Reset progress : 進行状況をリセット
+Reset language : 言語をリセット
+
+Counting : 数える
 sum : 答え
-up to 5 : 5まで
-up to 10 : 10まで
-up to 20 : 20まで
-Addition-Subtraction : 足し算-引き算
+Up to 5 : 5まで
+Up to 10 : 10まで
+Up to 20 : 20まで
+Up To 100 : 100まで
+Addition - Subtraction : 足し算-引き算
 Abacus : そろばん
 Play again : もう一度解く
 Next task : 次の問題
 Repeat question : もう一度
-Next  question : 次の問題
+Next question : 次の問題
 
 Task 1 : 問題1
 Task 2 : 問題2
@@ -99,4 +105,3 @@ Where to place the next 3 dots ? : 次の3点をペーシングするどこ？
 Where to place the next dot ? : 次のドットのペースはどこですか？
 Which dot to remove next ? : 次にどのドットを削除しますか？
 Start : スタート
-By Sotiris Delis & Christina Deli : Sotiris Delis＆Christina Deli著

@@ -1,4 +1,4 @@
-﻿ENGLISH - HINDI
+﻿ENGLISH - Hindi
 
 Incorrect answer : गलत जवाब
 Try again : पुनः प्रयास करें
@@ -11,7 +11,6 @@ Please try again : कृपया पुन: प्रयास करें
 Correct answer : सही उत्तर
 Next : अगला स्तर
 Task : कार्य
-Where to pace the next dot? : अगले डॉट को कहां रखें?
 Count to 5 : 5 तक गिनें
 Hidden fingers up to 5 : छिपी हुई उंगलियाँ ५ तक
 Sums up to 5 : 5 तक रकम
@@ -23,7 +22,7 @@ Making 5 : बनाना 5
 Count To 10 : 10 तक गिनें
 Hidden Fingers up to 10 : 10 तक छिपा हुआ फिंगर्स
 Count and Backwards up to 10 : 10 तक गिनती और पीछे की ओर
-Sums up  to 10 : 10 तक रकम
+Sums up to 10 : 10 तक रकम
 Subtract up to 10 : 10 तक घटाएं
 Count and Backwards by 2 : गिनती और 2 से पीछे
 Making 6 : बनाना 6
@@ -39,7 +38,6 @@ Sums up to 20 - Case 1 : 20 तक रकम - केस 1
 Sums up to 20 - Case 2 : 20 तक रकम - केस 2
 Subtract within 20 - Case 1 : 20 के भीतर घटाना - केस 1
 Subtract within 20 - Case 2: 20 के भीतर घटाना - केस 2
-
 
 Up to 100 : 100 तक
 Even : सम संख्या
@@ -62,7 +60,6 @@ Multiplication Problems : गुणन समस्या
 Multiplication - Division : गुणा - भाग
 Division a : डिवीजन a
 Division b : डिवीजन b
-
 
 Counting : गिनती
 sum : योग
@@ -90,14 +87,17 @@ Task 10 : कार्य10
 Task 11 : कार्य11
 Task 12 : कार्य12
 
+Settings : सेटिंग्स
+Reset progress : प्रगति को रीसेट करें
+Reset language : भाषा को रीसेट करें
 
 Previous Task : पिछला कार्य
 Count and Backwards by 2 up to 20 : गिनती और 20 से 2 तक पीछे
-
 
 Hi there! : नमस्ते! संख्याओं और गणित के साथ कठिन समय रहा? हमारे सरल गणित कार्यपुस्तिका के साथ आप मज़े के साथ सीख सकते हैं, जैसे कि आप एक खेल खेल रहे हैं! यह बिना किसी विज्ञापन के आकर्षक, आसान और पूरी तरह से मुफ़्त है। अपने समय का पता लगाने और तदनुसार अभ्यास करने के लिए अपना समय ले लो! आप सीख सकते हैं - 5, 10 और 20 तक की गणना, इसके अलावा-घटाव, अबेकस (मानसिक गणित), विभाजन और संख्याओं को कैसे गुणा करें।
 Where to place the next 3 dots ? : जहां अगले 3 डॉट्स को गति देने के लिए
 Where to place the next dot ? : अगले बिंदु को गति देने के लिए कहां?
 Which dot to remove next ? : आगे कौन सी बिंदी निकालनी है?
 Start : शुरु
-By Sotiris Delis & Christina Deli : सोतीरिस डेलिस और क्रिस्टीना डेली द्वारा
+By Sotiris Delis & Christina Deli : सोलट्रिस डेलिस और क्रिस्टीना डेली द्वारा
+

@@ -25,7 +25,7 @@
         <div class="r">
             <div class="overlay" id="e-ans">
                 <div id="omsg">
-                    <h2>Incorrect answer</h2>
+                    <h2 id="wallah">Incorrect answer</h2>
                 </div>
                 <button id="oact" class="navb" onclick="uit('e-ans', 0);inpb(0)">Try again</button>
             </div>
@@ -65,7 +65,7 @@
                             <option value="arabic">العربية</option>
                             <option value="chinese">中文</option>
                             <option value="japanese">日本語</option>
-                            <!-- <option value="greek">Ελληνικά</option> -->
+                            <option value="greek">Ελληνικά</option>
                             <option value="spanish">Español</option>
                         </select>
                         <button onclick="runit();" class="nav" id="start">Start</button>
@@ -78,7 +78,9 @@
                         <button class="nav" onclick="nav('addsub')">Addition - Subtraction</button>
                         <button class="nav" onclick="nav('abacus')">Abacus</button>
                         <button class="nav" onclick="nav('multiplication_division')">Multiplication - Division</button>
+                        <button class="nav" onclick="nav('settings')">Settings</button>
                     </div>
+
                 </div>
 
                 <div class="rt" id="upTo5">
@@ -182,7 +184,10 @@
                         <button class="nv" id="next" onclick="gbuild();">Next</button>
                     </div>
                 </div>
-                <div class="rt" id="settings"></div>
+                <div class="rt" id="settings">
+                    <button class="nav" onclick="localStorage.round='';window.location.reload();" id="rpg">Reset progress</button>
+                    <button class="nav" onclick="localStorage.runit=0;window.location.reload();" id="rpl">Reset language</button>
+                </div>
             </div>
         </div>
     </section>
