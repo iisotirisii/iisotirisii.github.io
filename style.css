@@ -168,7 +168,7 @@ select {
     margin-bottom: 50px;
 }
 
-#intro, #pad {
+#intro, #pad, #back {
     display: none;
 }
 
