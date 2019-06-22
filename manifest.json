@@ -23,12 +23,12 @@
       },
       {
         "src": "/assets/images/art/logo5.png",
-        "sizes": "50x50
+        "sizes": "50x50",
         "type": "image/png"
       },
       {
         "src": "/assets/images/art/logo6.png",
-        "sizes": "150x150"
+        "sizes": "150x150",
         "type": "image/png"
       }
     ],
