@@ -127,7 +127,7 @@ select {
     width: 40%;
     border: solid #fff 1px;
     border-radius: 12px;
-    background: #f4433600;
+    background: transparent;
     color: rgb(255, 255, 255);
     transition: all 0.4s;
 }
