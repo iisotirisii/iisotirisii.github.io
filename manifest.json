@@ -2,17 +2,17 @@
     "name": "Maths Made Easy",
     "short_name": "Maths Made Easy",
     "icons": [{
-      "src": "/assets/images/art/logo.png",
+      "src": "/assets/images/art/logo1.png",
         "sizes": "128x128",
         "type": "image/png"
       }, 
       {
-        "src": "/assets/images/art/logo.png",
+        "src": "/assets/images/art/logo2.png",
         "sizes": "144x144",
         "type": "image/png"
       },
       {
-        "src": "/assets/images/art/logo5.png",
+        "src": "/assets/images/art/logo3.png",
         "sizes": "512x512",
         "type": "image/png"
       }
