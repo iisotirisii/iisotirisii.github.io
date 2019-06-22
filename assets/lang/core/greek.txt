@@ -4,12 +4,12 @@ Hi there! : Γεια σου! Έχοντας έναν δύσκολο χρόνο �
 Incorrect answer : Λανθασμένη απάντηση
 Try again : Δοκιμάστε ξανά
 Round completed : Γύρος ολοκληρώθηκε
-Math Made Easy : ΤΑ ΜΑΘΗΜΑΤΙΚΑ ΕΓΙΝΑΝ ΕΥΚΟΛΑ 
+Maths Made Easy : ΤΑ ΜΑΘΗΜΑΤΙΚΑ ΕΓΙΝΑΝ ΕΥΚΟΛΑ 
 Back : Πίσω
 Ok : Εντάξει
 Select preferred language : Επιλέξτε τη γλώσσα της προτίμησής
 Please try again : Δοκίμασε ξανά
-Correct Answer : Σωστή απάντηση
+Correct answer : Σωστή απάντηση
 Next : Επόμενο
 Task : Άσκηση
 Settings : Ρυθμίσεις
