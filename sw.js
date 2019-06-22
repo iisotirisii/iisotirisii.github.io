@@ -9,7 +9,7 @@
 //     All Rights Reserved - https://github.com/AakashPandey/skyroutes
 
 
-const chng="tothestore", vn="pre-22";
+const chng="pizza-hi", vn="pre-23";
 var appCash=[
     "/index.html",
     "/lib/skyroute.css",
