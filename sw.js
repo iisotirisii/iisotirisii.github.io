@@ -9,7 +9,7 @@
 //     All Rights Reserved - https://github.com/AakashPandey/skyroutes
 
 
-const chng="nothing-else-matters", vn="pre-25";
+const chng="fingers-crossed", vn="pre-26";
 var appCash=[
     "/index.html",
     "/lib/skyroute.css",
