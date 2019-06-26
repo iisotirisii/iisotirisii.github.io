@@ -3,12 +3,12 @@ By Sotiris Delis & Christina Deli : Ըստ Sotiris Delis & Christina Deli
 Incorrect answer : սխալ պատասխանը
 Try again : փորձեք կրկին
 Round completed : կլոր ավարտվել
-Maths Made Easy : Մաթեմատիկա Պատրաստված Հեշտ
+Maths Made Easy - Method ALPHA : առաջին դասարանի մաթեմատիկա
 Back : Վերադառնալ
 Ok : Լավ
 Select preferred language : Ընտրեք նախընտրելի լեզուն
 Please try again : Կրկի՛ն փորձէ
-Correct Answer : Ճիշդ
+Correct answer : Ճիշդ
 Next : Յաջորդ աստիճան
 Task  : Վարժութիւն
 Count to 5 : Մինչեւ 5 համրէ՛
@@ -98,8 +98,10 @@ Count and Backwards by 2 up to 20 : Մինչեւ 20 բրձրացի՛ր եւ ապ
 
 
 Hi there! : Ողջույն! Ունենալով կոշտ ժամանակ, թվեր եւ մաթեմատիկա: Պարզ մաթեմատիկական գործնական գրքույկով դուք կարող եք սովորել հաճույքով, կարծես խաղ եք խաղում Այն գրավիչ, հեշտ եւ ամբողջովին անվճար է, առանց գովազդի Ձեռք բերեք ժամանակին, ուսումնասիրեք եւ համապատասխան գործեք Դուք կարող եք սովորել `հաշվարկել մինչեւ 5, 10 եւ 20, լրացուցիչ հանումը, abacus (հոգեկան մաթեմատիկա), բաժանումը եւ ինչպես բազմապատկել թվերը
-Where to place the next 3 dots ? : Ուր գնալ հաջորդ 3 կետերը
-Where to place the next dot ? : Ուր գնալ հաջորդ 3 կետերը...
-Which dot to remove next ? : Որ կետը կհեռացնի հաջորդին
-Start : Սկսեք
+Where to place the next 3 dots ? : Ո՞ւր կը դնես յաջորդ եռեակը
+Where to place the next dot ? : Ո՞ւր կը դնես յաջորդ կէտը...
+Which dot to remove next ? : Ո՞ր կէտը պէտք է հանես
+Start : Սկսի՛նք
 Next : Հաջորդը 
+
+Round completed : Փուլը ամբողջացաւ

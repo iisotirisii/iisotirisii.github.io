@@ -4,7 +4,7 @@ By Sotiris Delis & Christina Deli : Sotiris Delis＆Christina Deli著
 Incorrect answer : 不正解
 Try again : 再試行する
 Round completed : ラウンド完了
-Maths Made Easy : 数学を簡単に
+Maths Made Easy - Method ALPHA : １年生の算数Method Alpha
 Back : 戻る
 Ok : オーケー
 Select preferred language : ご希望の言語を選択

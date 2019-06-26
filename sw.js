@@ -9,14 +9,14 @@
 //     All Rights Reserved - https://github.com/AakashPandey/skyroutes
 
 
-const chng="fingers-crossed", vn="pre-26";
+const chng="ljkofn", vn="pre-29";
 var appCash=[
     "/index.html",
-    "/lib/skyroute.css",
-    "/style.css",
-    "/lib/skyroute.js",
-    "/master.js",
-    "/manifest.json",
+    // "/lib/skyroute.css",
+    // "/style.css",
+    // "/lib/skyroute.js",
+    // "/master.js",
+    // "/manifest.json",
     "https://fonts.googleapis.com/css?family=Dosis&display=swap",
     "/assets/game.json",
     "/assets/images/art/splash.png"

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Maths Made Easy</title>
+    <title>Maths Made Easy - Method ALPHA</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ef5350" />
@@ -10,188 +10,241 @@
     <meta name="description" content="Math workbook for kids and young learner">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" type="image/ico" href="/assets/icon.ico" />
     <link rel="stylesheet" type="text/css" media="screen" href="/lib/skyroute.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="/style.css" />
+
 </head>
 
 <body>
-    <header id="head"><div id="headx">Maths Made Easy</div>
-        <button id="setx"  onclick="nav('settings')">⚙</button>
+
+    <header>
+        <span id="header_text">Maths Made Easy - Method ALPHA</span>
+            <button id="header_btn" onclick="nav('settings')">⚙</button>
+            <button id="back" onclick="back()">←</button>
     </header>
+
+    <div id="store">
+        Please maximize the window. If you are using a mobile
+        device, try our android app.
+        <a href="https://play.google.com/store/apps/details?id=app.sotiris.fingermaths">Download</a>
+    </div>
+
     <section id="main">
-        <div class="l">
-            <img src="/assets/images/art/splash.png" id="splash">
-            <h3 id="by">By Sotiris Delis & Christina Deli</h3>
-            <button class="navb show" id="back" onclick="">Back</button>
+
+        <div class="overlay" id="e-dev">
+            Try resizing the window, if you are using a mobile
+            device, try our android app!
         </div>
-        <div class="r">
-            <div class="overlay" id="e-ans">
-                <div id="omsg">
-                    <h2 id="wallah">Incorrect answer</h2>
-                </div>
-                <button id="oact" class="navb" onclick="uit('e-ans', 0);inpb(0)">Try again</button>
-            </div>
 
-            <div class="overlay" id="e-done">
-                <div>
-                    <h2>Round completed</h2>
-                </div>
-                <button class="navb" onclick="gameup();uit('e-done', 0);inpb(0)">Ok</button>
-            </div>
-
-            <div class="overlay" id="e-net">
-                <div>
-                    <h2>Please check your internet connection</h2>
-                </div>
-            </div>
-            <div class="board" id="board">
-
-                <div class="irt" id="home">
-                    <div id="intro">
-                        <p id="introtxt">
-                            Hi there!
-                            Having a tough time with numbers and math?
-                            With our simple math workbook you can learn with fun, as if you are playing a game!<br/>
-                            It’s engaging, easy & completely free with no ads. 
-                            Take your time to explore and practice accordingly! 
-                            <br>
-                            You can learn - 
-                            Counting up to 5, 10, and 20, addition-subtraction, abacus (mental math), division, and how to multiply numbers. 
-                        </p>
-                        <br>
-                        <div id="sel">Select preferred language</div>
-                        <select id="ulang">
-                            <option value="">English</option>
-                            <option value="hindi">हिन्दी</option>
-                            <option value="armenian">Հայերեն</option>
-                            <option value="arabic">العربية</option>
-                            <option value="chinese">中文</option>
-                            <option value="japanese">日本語</option>
-                            <option value="greek">Ελληνικά</option>
-                            <option value="spanish">Español</option>
-                        </select>
-                        <button onclick="runit();" class="nav" id="start">Start</button>
-                    </div>
-                    <div id="pad">
-                        <button class="nav" onclick="nav('upTo5')">Up to 5</button>
-                        <button class="nav" onclick="nav('upTo10')">Up to 10</button>
-                        <button class="nav" onclick="nav('upTo20')">Up to 20</button>
-                        <button class="nav" onclick="nav('counting')">Counting</button>
-                        <button class="nav" onclick="nav('addsub')">Addition - Subtraction</button>
-                        <button class="nav" onclick="nav('abacus')">Abacus</button>
-                        <button class="nav" onclick="nav('multiplication_division')">Multiplication - Division</button>
-                    </div>
-
-                </div>
-
-                <div class="rt" id="upTo5">
-                    <button class="nav" onclick="nav('play');game(0);">Count to 5</button>
-                    <button class="nav" onclick="nav('play');game(1);">Hidden fingers up to 5</button>
-                    <button class="nav" onclick="nav('play');game(2);">Sums up to 5</button>
-                    <button class="nav" onclick="nav('play');game(3);">Subtract up to 5</button>
-                    <button class="nav" onclick="nav('play');game(4);">Making 3</button>
-                    <button class="nav" onclick="nav('play');game(5);">Making 4</button>
-                    <button class="nav" onclick="nav('play');game(6);">Making 5</button>
-                </div>
-
-                <div class="rt" id="upTo10">
-                    <button class="nav" onclick="nav('play');game(0);">Count To 10</button>
-                    <button class="nav" onclick="nav('play');game(1);">Hidden Fingers up to 10</button>
-                    <button class="nav" onclick="nav('play');game(2);">Count and Backwards up to 10</button>
-                    <button class="nav" onclick="nav('play');game(3);">Sums up to 10</button>
-                    <button class="nav" onclick="nav('play');game(4);">Subtract up to 10</button>
-                    <button class="nav" onclick="nav('play');game(5);">Count and Backwards by 2</button>
-                    <button class="nav" onclick="nav('play');game(6);">Making 6</button>
-                    <button class="nav" onclick="nav('play');game(7);">Making 7</button>
-                    <button class="nav" onclick="nav('play');game(8);">Making 8</button>
-                    <button class="nav" onclick="nav('play');game(9);">Making 9</button>
-                    <button class="nav" onclick="nav('play');game(10);">Making 10</button>
-                </div>
-
-                <div class="rt" id="upTo20">
-                    <button class="nav" onclick="nav('play');game(0);">Count and Backwards between 10 and 20</button>
-                    <button class="nav" onclick="nav('play');game(1);">Count and Backwards by 2 up to 20</button>
-                    <button class="nav" onclick="nav('play');game(2);">Sums up to 20 - Case 1</button>
-                    <button class="nav" onclick="nav('play');game(3);">Sums up to 20 - Case 2</button>
-                    <button class="nav" onclick="nav('play');game(4);">Subtract within 20 - Case 1</button>
-                    <button class="nav" onclick="nav('play');game(5);">Subtract within 20 - Case 2</button>
-                </div>
-
-                <div class="rt" id="counting">
-                    <button class="nav" onclick="nav('play');game(0);">3-3</button>
-                    <button class="nav" onclick="nav('play');game(1);">4-4</button>
-                    <button class="nav" onclick="nav('play');game(2);">5-5</button>
-                    <button class="nav" onclick="nav('play');game(3);">6-6</button>
-                    <button class="nav" onclick="nav('play');game(4);">7-7</button>
-                    <button class="nav" onclick="nav('play');game(5);">8-8</button>
-                    <button class="nav" onclick="nav('play');game(6);">9-9</button>
-                    <button class="nav" onclick="nav('play');game(7);">10-10</button>
-                    <button class="nav" onclick="nav('play');game(8);">100-100</button>
-                    <button class="nav" onclick="nav('play');game(9);">Up To 100</button>
-                    <button class="nav" onclick="nav('play');game(10);">Even</button>
-                    <button class="nav" onclick="nav('play');game(11);">Odd</button>
-                </div>
-
-                <div class="rt" id="addsub">
-                    <button class="nav" onclick="nav('play');game(0);">Add Doublets</button>
-                    <button class="nav" onclick="nav('play');game(1);">Addition with 3 Numbers upto 10</button>
-                    <button class="nav" onclick="nav('play');game(2);">Addition with 3 Numbers upto 20</button>
-                    <button class="nav" onclick="nav('play');game(3);">Cumulative law of Addition</button>
-                    <button class="nav" onclick="nav('play');game(4);">Property Subtraction</button>
-                </div>
-
-                <div class="rt" id="abacus">
-                    <button class="nav" onclick="nav('play');game(0);">Abacus</button>
-                    <button class="nav" onclick="nav('play');game(1);">Addition with Abacus</button>
-                    <button class="nav" onclick="nav('play');game(2);">Subtraction with Abacus</button>
-                    <button class="nav" onclick="nav('play');game(3);">Abacus upto 1000</button>
-
-                </div>
-
-                <div class="rt" id="multiplication_division">
-                    <button class="nav" onclick="nav('play');game(0);">Multiplication</button>
-                    <button class="nav" onclick="nav('play');game(1);">Relate Addition and Multiplication</button>
-                    <button class="nav" onclick="nav('play');game(2);">Cumulative law of Multiplication</button>
-                    <button class="nav" onclick="nav('play');game(3);">Multiplication Problems</button>
-                    <button class="nav" onclick="nav('play');game(4);">Multiplication - Division</button>
-                    <button class="nav" onclick="nav('play');game(5);">Division a</button>
-                    <button class="nav" onclick="nav('play');game(6);">Division b</button>
-                </div>
-
-                <div class="rt" id="play">
-                    <div id="spin">
-                        <br><br>
-                        <center>
-                            <div class="lds-ring">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                        </center>
-                    </div>
-                    <div id="ques">
-                        <div id="q"></div>
-                        <img id="qimg">
-                        <div id="count"></div>
-                        <button class="nv" id="op1" onclick="next(this);"></button>
-                        <button class="nv" id="op2" onclick="next(this);"></button>
-                        <button class="nv" id="op3" onclick="next(this);"></button>
-                        <button class="nv" id="op4" onclick="next(this);"></button>
-                    </div>
-                    <div id="ans">
-                        <p id="lbl">Correct answer</p>
-                        <img id="aimg">
-                        <button class="nv" id="next" onclick="gbuild();">Next</button>
-                    </div>
-                </div>
-                <div class="rt" id="settings">
-                    <button class="nav" onclick="localStorage.round='';window.location.reload();" id="rpg">Reset progress</button>
-                    <button class="nav" onclick="localStorage.runit=0;window.location.reload();" id="rpl">Reset language</button>
-                </div>
+        <div class="overlay" id="e-ans">
+            <div id="omsg">
+                <h2 id="wallah">Incorrect answer</h2>
+                <button id="oact" class="navb" onclick="uit('e-ans', 0);">Try again</button>
             </div>
         </div>
+
+        <div class="overlay" id="e-done">
+            <div>
+                <h2 id="roundc">Round completed</h2>
+                <button class="navb" onclick="gameup();uit('e-done', 0);" id="kay">Ok</button>
+            </div>
+        </div>
+
+        <div class="overlay" id="e-net">
+            <div>
+                <h2 id="net">Please check your internet connection</h2>
+            </div>
+        </div>
+
+        <div id="home" class="irt">
+            <img src="/assets/images/art/splash.png">
+            <p id="desc">Hi there! Having a tough time with numbers and math? With our simple math workbook you can
+                learn with fun, as if you are playing a game!
+                It’s engaging, easy & completely free with no ads. Take your time to explore and practice accordingly!
+                You can learn - Counting up to 5, 10, and 20, addition-subtraction, abacus (mental math), division, and
+                how to multiply numbers.
+            </p>
+            <p id="lang_label">Select preferred language</p>
+            <select id="lang">
+                <option value="">English</option>
+                <option value="hindi">हिन्दी</option>
+                <option value="armenian">Հայերեն</option>
+                <option value="arabic">العربية</option>
+                <option value="chinese">中文</option>
+                <option value="japanese">日本語</option>
+                <option value="greek">Ελληνικά</option>
+                <option value="spanish">Español</option>
+            </select>
+            <button onclick="runit();nav('levels')" class="" id="start">Start</button>
+            <p id="by">By Sotiris Delis & Christina Deli</p>
+            <br><br>
+        </div>
+
+        <div id="levels" class="rt">
+            <img src="/assets/images/art/ques.png">
+            <div id="pad">
+                <button class="nav" onclick="nav('upTo5')">Up to 5</button>
+                <button class="nav" onclick="nav('upTo10')">Up to 10</button>
+                <button class="nav" onclick="nav('upTo20')">Up to 20</button>
+                <button class="nav" onclick="nav('counting')">Counting</button>
+                <button class="nav" onclick="nav('addsub')">Addition - Subtraction</button>
+                <button class="nav" onclick="nav('abacus')">Abacus</button>
+                <button class="nav" onclick="nav('multiplication_division')">Multiplication - Division</button>
+            </div>
+        </div>
+
+        <div class="rt blk" id="upTo5">
+            <button class="nav" onclick="nav('play');game(0);">Count to 5</button>
+            <button class="nav" onclick="nav('play');game(1);">Hidden fingers up to 5</button>
+            <button class="nav" onclick="nav('play');game(2);">Sums up to 5</button>
+            <button class="nav" onclick="nav('play');game(3);">Subtract up to 5</button>
+            <button class="nav" onclick="nav('play');game(4);">Making 3</button>
+            <button class="nav" onclick="nav('play');game(5);">Making 4</button>
+            <button class="nav" onclick="nav('play');game(6);">Making 5</button>
+
+            <button class="back" id="back1" onclick="nav('levels')">Back</button>
+            <br><br>
+
+        </div>
+
+        <div class="rt blk" id="upTo10">
+            <button class="nav" onclick="nav('play');game(0);">Count To 10</button>
+            <button class="nav" onclick="nav('play');game(1);">Hidden Fingers up to 10</button>
+            <button class="nav" onclick="nav('play');game(2);">Count and Backwards up to 10</button>
+            <button class="nav" onclick="nav('play');game(3);">Sums up to 10</button>
+            <button class="nav" onclick="nav('play');game(4);">Subtract up to 10</button>
+            <button class="nav" onclick="nav('play');game(5);">Count and Backwards by 2</button>
+            <button class="nav" onclick="nav('play');game(6);">Making 6</button>
+            <button class="nav" onclick="nav('play');game(7);">Making 7</button>
+            <button class="nav" onclick="nav('play');game(8);">Making 8</button>
+            <button class="nav" onclick="nav('play');game(9);">Making 9</button>
+            <button class="nav" onclick="nav('play');game(10);">Making 10</button>
+
+            <button class="back" id="back2" onclick="nav('levels')">Back</button>
+            <br><br>
+
+        </div>
+
+        <div class="rt blk" id="upTo20">
+            <button class="nav" onclick="nav('play');game(0);">Count and Backwards between 10 and 20</button>
+            <button class="nav" onclick="nav('play');game(1);">Count and Backwards by 2 up to 20</button>
+            <button class="nav" onclick="nav('play');game(2);">Sums up to 20 - Case 1</button>
+            <button class="nav" onclick="nav('play');game(3);">Sums up to 20 - Case 2</button>
+            <button class="nav" onclick="nav('play');game(4);">Subtract within 20 - Case 1</button>
+            <button class="nav" onclick="nav('play');game(5);">Subtract within 20 - Case 2</button>
+            <button class="back" id="back3" onclick="nav('levels')">Back</button>
+            <br><br>
+
+        </div>
+
+        <div class="rt blk" id="counting">
+            <button class="nav" onclick="nav('play');game(0);">3-3</button>
+            <button class="nav" onclick="nav('play');game(1);">4-4</button>
+            <button class="nav" onclick="nav('play');game(2);">5-5</button>
+            <button class="nav" onclick="nav('play');game(3);">6-6</button>
+            <button class="nav" onclick="nav('play');game(4);">7-7</button>
+            <button class="nav" onclick="nav('play');game(5);">8-8</button>
+            <button class="nav" onclick="nav('play');game(6);">9-9</button>
+            <button class="nav" onclick="nav('play');game(7);">10-10</button>
+            <button class="nav" onclick="nav('play');game(8);">100-100</button>
+            <button class="nav" onclick="nav('play');game(9);">Up To 100</button>
+            <button class="nav" onclick="nav('play');game(10);">Even</button>
+            <button class="nav" onclick="nav('play');game(11);">Odd</button>
+
+            <button class="back" id="back4" onclick="nav('levels')">Back</button>
+            <br><br>
+
+        </div>
+
+        <div class="rt blk" id="addsub">
+
+            <button class="nav" onclick="nav('play');game(0);">Add Doublets</button>
+            <button class="nav" onclick="nav('play');game(1);">Addition with 3 Numbers upto 10</button>
+            <button class="nav" onclick="nav('play');game(2);">Addition with 3 Numbers upto 20</button>
+            <button class="nav" onclick="nav('play');game(3);">Cumulative law of Addition</button>
+            <button class="nav" onclick="nav('play');game(4);">Property Subtraction</button>
+
+            <button class="back" id="back5" onclick="nav('levels')">Back</button>
+
+            <br><br>
+
+        </div>
+
+        <div class="rt blk" id="abacus">
+            <button class="nav" onclick="nav('play');game(0);">Abacus</button>
+            <button class="nav" onclick="nav('play');game(1);">Addition with Abacus</button>
+            <button class="nav" onclick="nav('play');game(2);">Subtraction with Abacus</button>
+            <button class="nav" onclick="nav('play');game(3);">Abacus upto 1000</button>
+
+            <button class="back" id="back6" onclick="nav('levels')">Back</button>
+            <br><br>
+
+        </div>
+
+        <div class="rt blk" id="multiplication_division">
+            <button class="nav" onclick="nav('play');game(0);">Multiplication</button>
+            <button class="nav" onclick="nav('play');game(1);">Relate Addition and Multiplication</button>
+            <button class="nav" onclick="nav('play');game(2);">Cumulative law of Multiplication</button>
+            <button class="nav" onclick="nav('play');game(3);">Multiplication Problems</button>
+            <button class="nav" onclick="nav('play');game(4);">Multiplication - Division</button>
+            <button class="nav" onclick="nav('play');game(5);">Division a</button>
+            <button class="nav" onclick="nav('play');game(6);">Division b</button>
+
+            <button class="back" id="back7" onclick="nav('levels')">Back</button>
+            <br><br>
+
+        </div>
+
+        <div id="play" class="rt">
+
+            <div id="spin">
+                <br><br>
+                <center>
+                    <div class="lds-ring">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </center>
+            </div>
+
+            <div id="ques">
+                <div id="q"></div>
+                <div id="count"></div>
+                <img id="qimg">
+                <div id="qr">
+                    <button class="nv" id="op1" onclick="next(this);"></button>
+                    <button class="nv" id="op2" onclick="next(this);"></button>
+                    <button class="nv" id="op3" onclick="next(this);"></button>
+                    <button class="nv" id="op4" onclick="next(this);"></button>
+                </div>
+            </div>
+
+            <div id="ans">
+                <p id="lbl">Correct answer</p>
+                <img id="aimg">
+                <div id="ar">
+                    <button class="nv" id="next" onclick="gbuild();">Next</button>
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+        <div id="settings" class="rt">
+            <img src="/assets/images/art/splash.png">
+            <p id="by1">By Sotiris Delis & Christina Deli</p>
+            <a href="mailto:iisotirisii@gmail.com" target="_blanl">✉ iisotirisii@gmail.com</a><br>
+            <button class="" onclick="localStorage.round='';nav('levels');window.location.reload();" id="rpg">Reset progress</button>
+            <button class="" onclick="delete(localStorage.lang);window.location.reload();" id="rpl">Reset language</button>
+                <br>
+            <button class="back" id="back8" onclick="back()">Back</button>
+            <br><br>
+        </div>
+
     </section>
+
 </body>
 
 <script src="/sw.js"></script>

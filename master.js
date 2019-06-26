@@ -1,9 +1,12 @@
+// uit('ans', 0);
+
+
 window.addEventListener('offline', (e) => {
     if (e.type === "offline") {
         uit('e-net', 1);
-        inpb(1);
+        // inpb(1);
     } else {
-        inpb(0);
+        // inpb(0);
         uit('e-net', 0);
     }
 });
@@ -11,43 +14,45 @@ window.addEventListener('offline', (e) => {
 window.addEventListener('online', (e) => {
     if (e.type === "online") {
         uit('e-net', 0);
-        inpb(0);
+        // inpb(0);
     } else {
-        inpb(1);
+        // inpb(1);
         uit('e-net', 1);
     }
 });
 
 var lang = 0;
 var pathEvents = (p) => {
-    back = document.getElementById('back');
     if (p === "") {
-        uit('back', 0);
-    } else if (Routes[p] !== "" && p !== "play" && paths.length !== 1) {
+        uit('header_btn', 0);
+        if (localStorage.lang || localStorage.lang === "") {
+            nav('levels');
+        }    
+    } else if (p === "play") {
+        uit('header_btn', 0);
         uit('back', 1);
-        back.onclick = () => { nav('') }
-    } else if (p === "play" && paths.length !== 1) {
-        // console.log(paths[paths.length - 2]);
-        back.onclick = () => { nav(paths[paths.length - 2]) }
-    } else if (paths.length === 1) {
+    } else {
+        uit('header_btn', 1);
+        uit('back', 0);
+    }
+
+    if(paths.length === 1) {
         nav('');
     }
 
+    if(p==="settings") {
+        uit('header_btn', 0);
+    }
+
 }
 
-var inpb = (c) => {
-    if (c === 0) {
-        document.getElementById('board').style.pointerEvents = "auto";
-    } else {
-        document.getElementById('board').style.pointerEvents = "none";
-    }
-}
 
 var addticks = (t) => {
     try {
         // console.log(t.innerText + ' yooo');
         if (!t.innerText.includes('✔')) {
             t.innerText += "  ✔";
+            t.classList.add('green');
         }
     } catch (e) {
 
@@ -62,7 +67,10 @@ var tickall = () => {
         rr = [];
     }
     rr.map((e) => {
-        if (e !== "") {
+        
+            if(e==="levels" || e==="play" || e==="" || e==="settings"){
+                return;
+            }
             var full = 0;
             ec = document.getElementById(e).children;
             for (i = 0; i < ec.length; i++) {
@@ -70,16 +78,15 @@ var tickall = () => {
                     full++;
                 }
             }
+           
 
-            if (full === ec.length) {
+            if (full === ec.length-3) {
                 addticks(document.getElementById('pad').children[ct]);
             }
             ct++;
-
-        }
+        
     });
 }
-
 
 var rstate = () => {
     if (localStorage.rounds) {
@@ -96,13 +103,12 @@ var rstate = () => {
 
         });
     }
-
     tickall();
 }
 
 
 
-var langDaemon = (id, e) => {
+var ld = (id, e) => {
     // alert('daemon called on ' + id);
     if (!lang) {
         return;
@@ -123,7 +129,7 @@ var langDaemon = (id, e) => {
             }
             j++;
         }
-        // alert(`${txt} : ${trans}`);
+        // console.log(`${txt} : ${trans}`);
         (trans === "" || trans === undefined) ? trans = txt : null;
         sheet.innerText = trans;
     } else if (e === "m") {
@@ -140,10 +146,11 @@ var langDaemon = (id, e) => {
         }
         (trans === "" || trans === undefined) ? trans = "nope" : null;
         sheet.innerText = trans;
-    } else {
+    } else if (e===0){
         for (i = 0; i < sheet.length; i++) {
             var trans = "";
             txt = sheet[i].innerText;
+            // alert(txt)
             j = lang.indexOf(txt);
             var flag = 0;
             while (lang[j] !== "\n") {
@@ -153,7 +160,7 @@ var langDaemon = (id, e) => {
                 }
                 j++;
             }
-            // console.log(`${txt} : ${trans}`);
+            // alert(`${txt} : ${trans}`);
             (trans === "" || trans === undefined) ? trans = txt : null;
             sheet[i].innerText = trans;
         }
@@ -171,31 +178,49 @@ var langSelect = (ch) => {
     }
     // fetch localst lang file then to lang var
     fetch(`/assets/lang/core/${localStorage.lang}.txt`).then(async (res) => {
-        // alert('fetched file')
         lang = await res.text();
-        langDaemon('headx', 1);
-        langDaemon('back', 1);
-        langDaemon('next', 1);
-        langDaemon('lbl', 1);
-        langDaemon('introtxt', 'm');
-        langDaemon('sel', 1);
-        langDaemon('start', 1);
-        langDaemon('by', 1);
-        langDaemon('wallah', 1);
-        langDaemon('pad');
-        langDaemon('e-ans');
-        langDaemon('e-done');
-        langDaemon('rpg');
-        langDaemon('rpl');
+        // optimize this later, not acceptable
 
-        ids = Object.keys(JSON.parse(localStorage.Routes));
-        ids.map((id) => {
-            if (id === "play" || id === "" || id === "ulang") return;
-            langDaemon(id);
+        ld('header_text', 1);
+        ld('start', 1);
+
+        ld('back1', 1);
+        ld('back2', 1);
+        ld('back3', 1);
+        ld('back4', 1);
+        ld('back5', 1);
+        ld('back6', 1);
+        ld('back7', 1);
+        ld('back8', 1);
+
+        ld('next', 1);
+        ld('wallah', 1);
+        ld('roundc', 1);
+        ld('kay', 1);
+
+        ld('lang_label', 1);
+        ld('desc', 'm');
+
+        ld('net', 1);
+        ld('net', 1);
+        ld('by', 1);
+        ld('by1', 1);
+        ld('lbl', 1);
+        ld('rpg', 1);
+        ld('rpl', 1);
+        ld('oact', 1);
+        
+        ld("pad", 0);
+        vd = Object.keys(JSON.parse(localStorage.Routes));
+        vd.map((x) => {
+            if (x === "play" || x === "" || x === "lang" || x ==="settings" || x==="levels") return;
+            ld(x, 0);
         });
 
+        // console.log('done');
+
         rstate();
-    }).catch((e)=>{
+    }).catch((e) => {
 
     });
 }
@@ -203,17 +228,23 @@ var langSelect = (ch) => {
 
 var imgFit = (id) => {
     var n = document.getElementById(id);
-    if (n.src.includes('upTo5')) {
+    if (n.src.includes('upTo5_1') || n.src.includes('upTo5_7_1a') || n.src.includes('upTo5_7_1q') || n.src.includes('upTo5_5') || n.src.includes('upTo5_6') || n.src.includes('upTo5_2') ||  n.src.includes('upTo5_7') ) {
+        if(id==='aimg') {
+            n.style.width = "35%";
+            return;
+        }
         n.style.width = "50%";
+        n.classList.add("ffit");
+    } else {
+        if(id==='aimg') {
+            n.style.width = "65%";
+            return;
+        }
+        n.style.width = "85%";
+        try {
+            n.classList.remove("ffit");
+        } catch (e) { }
     }
-}
-
-var oalert = (msg, bt, ba) => {
-    document.getElementById('omsg').innerHTML = msg;
-    inpb(1);
-    uit('overlay', 1);
-    document.getElementById('oact').innerText = bt;
-    document.getElementById('oact').onclick = () => { ba(); uit('overlay', 0) }
 }
 
 var gameskel;
@@ -227,6 +258,7 @@ var gamef = () => {
 var gdat, lvl, round, ans, sess, mix = 0, ff = 0;
 
 var game = (n) => {
+    // alert(n);
     round = n;
     ses = 0;
     sess = 0;
@@ -236,7 +268,6 @@ var game = (n) => {
     gbuild();
 }
 
-gamef();
 
 var gbuild = () => {
     document.getElementById('q').innerText = "";
@@ -249,12 +280,11 @@ var gbuild = () => {
         sess = 0;
     }
 
-
     if (g["set"] !== undefined) {
         sn = g["set"].length;
         // Enter qna mode
         if (g["set"][ses] === undefined && sn !== 0) {
-            inpb(1);
+            // inpb(1);
             uit('e-done', 1);
             return;
         }
@@ -271,12 +301,10 @@ var gbuild = () => {
                     document.getElementById('count').innerText = "";
                     img = document.getElementById('qimg');
                     img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + mix}q.jpg`;
-                    inpb(1);
-                    uit('qimg', 0);
+                    // uit('qimg', 0);
                     uit('spin', 1);
                     img.onload = () => {
-                        inpb(0);
-                        uit('qimg', 1);
+                        // uit('qimg', 1);
                         uit('spin', 0);
                     }
                     document.getElementById('op1').innerHTML = ops[0];
@@ -291,16 +319,14 @@ var gbuild = () => {
                 } else {
                     mix = 0;
                     document.getElementById('q').innerText = g["set"][ses]["ques"];
-                    langDaemon('q', 1);
+                    ld('q', 1);
                     document.getElementById('count').innerText = `${sess + 1}/${g["set"][ses]["opts"].length}`
                     img = document.getElementById('qimg');
                     img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}.${sess + 1}q.jpg`;
-                    inpb(1);
-                    uit('qimg', 0);
+                    // uit('qimg', 0);
                     uit('spin', 1);
                     img.onload = () => {
-                        inpb(0);
-                        uit('qimg', 1);
+                        // uit('qimg', 1);
                         uit('spin', 0);
                     }
                     imgFit('qimg');
@@ -315,7 +341,6 @@ var gbuild = () => {
 
                 if (ff === 1) {
                     ff = 0;
-                    inpb(1);
                     uit('e-done', 1);
                     return;
 
@@ -329,9 +354,7 @@ var gbuild = () => {
                 img = document.getElementById('aimg');
                 img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}a.jpg`;
                 uit('spin', 1);
-                inpb(1);
                 img.onload = () => {
-                    inpb(0);
                     uit('spin', 0);
                 }
                 uit('ques', 0);
@@ -348,7 +371,6 @@ var gbuild = () => {
     }
 
     if (g["opts"][sess] === undefined) {
-        inpb(1);
         uit('e-done', 1);
         return;
     }
@@ -359,11 +381,7 @@ var gbuild = () => {
         img = document.getElementById('qimg')
         img.src = `/assets/images/core/${lvl}_${round + 1}_${sess + 1}q.jpg`;
         uit('spin', 1);
-        document.getElementById('board').style.pointerEvents = "none";
-        inpb(1);
-
         img.onload = () => {
-            inpb(0);
             uit('spin', 0);
         }
         imgFit('qimg');
@@ -384,34 +402,26 @@ var next = (el) => {
         } else if (mix === 0) {
             img = document.getElementById('aimg')
             img.src = `/assets/images/core/${lvl}_${round + 1}_${sess}a.jpg`;
-            inpb(1);
             uit('spin', 1);
             img.onload = () => {
-                inpb(0);
                 uit('spin', 0);
             }
             imgFit('aimg');
             uit('ques', 0);
             uit('ans', 1);
         } else {
-            // mix case
             img = document.getElementById('aimg')
             img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + mix}a.jpg`;
-            inpb(1);
             uit('spin', 1);
             img.onload = () => {
-                inpb(0);
                 uit('spin', 0);
             }
-
             imgFit('aimg');
             uit('ques', 0);
             uit('ans', 1);
-
         }
 
     } else {
-        inpb(1);
         uit('e-ans', 1);
     }
 }
@@ -430,19 +440,16 @@ var gameup = () => {
         obj = {};
         obj[lvl] = [round];
         localStorage.rounds = JSON.stringify(obj);
-        // console.log("case1 ")
     } else if (l[lvl] !== undefined) {
 
         if (!l[lvl].includes(round)) {
             l[lvl].push(round);
             localStorage.rounds = JSON.stringify(l);
         }
-        // console.log("case2")
     } else if (l[lvl] === undefined) {
         l[lvl] = [];
         l[lvl].push(round);
         localStorage.rounds = JSON.stringify(l);
-        // console.log("case3 " + l[lvl])
     }
 
     gdat, lvl, round, ans, sess;
@@ -454,38 +461,29 @@ var gameup = () => {
 var lll, llll;
 
 if (window.navigator.onLine !== true) {
-    inpb(1);
+    // inpb(1);
     uit('e-net', 1);
-} else inpb(0);
+} else {
+
+}
 
 var runit = () => {
     localStorage.runit = "ok";
-    localStorage.lang = document.getElementById('ulang').value;
-    uit('intro', 0);
-    uit('pad', 1);
-    uit('setx', 1);
-
-}
-
-if(localStorage.runit!=="ok") {
-    uit('intro', 1);
-} else {
-    uit('pad', 1);
-    uit('setx', 1);
-    langSelect();
+    localStorage.lang = document.getElementById('lang').value;
 }
 
 
-ulang = document.getElementById('ulang');
+llang = document.getElementById('lang');
 try {
-    ulang.onchange = () => {
-        localStorage.lang = ulang.value;
-        ulang.disabled = true;
-        // if(ulang.value === "" && localStorage.runit!=="ok") {
-        //     window.location.reload();
-        // }
+    llang.onchange = () => {
+        localStorage.lang = llang.value;
+        llang.disabled = true;
         langSelect();
     }
-} catch(e) {
+} catch (e) {
 
 }
+
+var back = () => nav(paths[paths.length - 2]);
+gamef();
+langSelect();

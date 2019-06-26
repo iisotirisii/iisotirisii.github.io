@@ -1,16 +1,16 @@
 ﻿ENGLISH - SPANISH
 
-Hi there! : Hola ahi Tener un tiempo duro con los números y las matemáticas? ¡Con nuestro sencillo libro de matemáticas puedes aprender con diversión, como si estuvieras jugando un juego! Es atractivo, fácil y completamente gratis, sin anuncios. ¡Tómate tu tiempo para explorar y practicar en consecuencia! Puede aprender: contar hasta 5, 10 y 20, sumar y restar, ábaco (matemáticas mentales), división y cómo multiplicar números.
+Hi there! : Aprende a contar hasta 5, 10 y 20. También puedes aprender sumas-restas, con ábaco (matemáticas mentales), divisiones y cómo multiplicar números. Nuestro sencillo libro de matemáticas te hará sentir como si estuvieras jugando un juego de matemáticas genial y no estudiando matemáticas. Es divertido, motivador y adictivo.
 By Sotiris Delis & Christina Deli : Por Sotiris Delis & Christina Deli
 Incorrect answer : Respuesta incorrecta
 Try again : Inténtalo de nuevo
 Round completed : Ronda completada
-Maths Made Easy : Matemáticas de Primer Grado
+Maths Made Easy - Method ALPHA : Matemáticas hechas fáciles - método alfa
 Back : Atrás
 Ok : De acuerdo
 Select preferred language : Seleccione el idioma preferido
 Please try again : Intenta de nuevo
-Correct Answer : Respuesta Correcta 
+Correct answer : Respuesta Correcta 
 Next level : Próximo nivel
 Task  : Tarea
 Count to 5 : Cuenta hasta 5
@@ -100,6 +100,7 @@ Previous Task : Tarea Anterior
 Count and Backwards by 2 up to 20 : Cuenta y Retrocede por 2 hasta el 20
 
 
+Round completed : Ronda completada
 
 Where to place the next 3 dots ? : Dónde colocar los próximos 3 puntos?
 Where to place the next dot ? : ¿Dónde marcar el siguiente punto?
