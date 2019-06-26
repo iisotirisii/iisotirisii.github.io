@@ -4,18 +4,19 @@ Hi there! : Με τα «ΜΑΘΗΜΑΤΙΚΑ Α΄ ΔΗΜΟΤΙΚΟΥ- ΜΕΘΟΔ
 Incorrect answer : Λανθασμένη απάντηση
 By Sotiris Delis & Christina Deli : Από τον Σωτήρη Δελή και την Χριστίνα Δελή
 Try again : Δοκιμάστε ξανά
-Round completed : Γύρος ολοκληρώθηκε
+Round completed : Ο γύρος ολοκληρώθηκε 
 Maths Made Easy - Method ALPHA : Μαθηματικά Α Δημοτικού - Μέθοδος ALPHA 
 Back : Πίσω
 Ok : Εντάξει
 
-Where to place the next 3 dots ? : Πού να βάλεις τα επόμενα 3 κουκκίδες;
-Where to place the next dot ? : Πού να ρυθμίσετε την επόμενη κουκκίδα;
-Which dot to remove next ? : Ποια κουκίδα θα αφαιρεθεί στη συνέχεια;
+Where to place the next 3 dots ? : Πού μπαίνει η επόμενη τριάδα;
+Where to place the next 5 dots? : Πού μπαίνει η επόμενη πεντάδα;
+Where to place the next dot ? : Πού μπαίνει η επόμενη κουκκίδα;
+Which dot to remove next ? : Ποια κουκκίδα πρέπει να βγει;
 Start : Ξεκινάμε
 Next : Επόμενο
 
-Select preferred language : Επιλέξτε τη γλώσσα της προτίμησής
+Select preferred language : Επιλέξτε γλώσσα προτίμησης
 Please try again : Δοκίμασε ξανά
 Correct answer : Σωστή απάντηση
 Task : Άσκηση

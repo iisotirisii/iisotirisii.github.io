@@ -102,7 +102,8 @@ Count and Backwards by 2 up to 20 : Cuenta y Retrocede por 2 hasta el 20
 
 Round completed : Ronda completada
 
-Where to place the next 3 dots ? : Dónde colocar los próximos 3 puntos?
+Where to place the next 3 dots ? :  ¿Dónde colocar 3 puntos?
 Where to place the next dot ? : ¿Dónde marcar el siguiente punto?
 Which dot to remove next ? : ¿Qué punto eliminar a continuación?
-Start : comienzo
+Start : comenzar
+Where to place the next 5 dots? :  ¿Dónde colocar 5 puntos?
