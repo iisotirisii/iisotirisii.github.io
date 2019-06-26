@@ -39,7 +39,6 @@ Sums up to 20 - Case 2 : 20 तक रकम - केस 2
 Subtract within 20 - Case 1 : 20 के भीतर घटाना - केस 1
 Subtract within 20 - Case 2: 20 के भीतर घटाना - केस 2
 
-Up to 100 : 100 तक
 Even : सम संख्या
 Odd : विषम संख्या
 
