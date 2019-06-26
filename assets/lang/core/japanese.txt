@@ -41,8 +41,6 @@ Sums up to 20 - Case 2 : 20までの足し算
 Subtract within 20 - Case 1 : 20までの引き算セット1
 Subtract within 20 - Case 2 : 20までの引き算セット2
 
-
-Up to 100 : 100まで
 Even : 偶数
 Odd : 奇数
 
