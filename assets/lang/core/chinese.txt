@@ -50,7 +50,6 @@ Subtract within 20 - Case 1 : 减至20 - 例子1
 Subtract within 20 - Case 2 : 减至20 - 例子2
 
 
-Up to 100 : 最多至100
 Even : 双数
 Odd : 单数
 
