@@ -189,11 +189,29 @@ body {
     margin-left: 150px;
 }
 
-#qimg {
+#qimg{
     display: inline-block;
     width: 80%;
     background: #fff;
     margin-top: 50px;
+}
+
+#qspin {
+    display: inline-block;
+    padding: 100px 140px 100px 140px;
+    background: #fff;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+#aspin {
+    width: 260px;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 30px;
+    background: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #qr {
@@ -358,7 +376,7 @@ body {
 
 /* UIT Components */
 
-#header_btn, #back, .e-ans, .e-done, #spin, .e-net, #ans, #store {
+#header_btn, #back, .e-ans, .e-done, #spin, .e-net, #ans, #store, #aspin, #qspin {
     display: none;
 }
 

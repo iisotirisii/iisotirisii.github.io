@@ -1,12 +1,7 @@
-// uit('ans', 0);
-
-
 window.addEventListener('offline', (e) => {
     if (e.type === "offline") {
         uit('e-net', 1);
-        // inpb(1);
     } else {
-        // inpb(0);
         uit('e-net', 0);
     }
 });
@@ -14,9 +9,7 @@ window.addEventListener('offline', (e) => {
 window.addEventListener('online', (e) => {
     if (e.type === "online") {
         uit('e-net', 0);
-        // inpb(0);
     } else {
-        // inpb(1);
         uit('e-net', 1);
     }
 });
@@ -109,14 +102,11 @@ var rstate = () => {
 
 
 var ld = (id, e) => {
-    // alert('daemon called on ' + id);
     if (!lang) {
         return;
     }
     var sheet = document.getElementById(id).children;
     if (e === 1) {
-        // refactor code later
-        // console.log('element level');
         var sheet = document.getElementById(id);
         var trans = "";
         txt = sheet.innerText;
@@ -128,8 +118,11 @@ var ld = (id, e) => {
                 trans += lang[j];
             }
             j++;
-        }
-        // console.log(`${txt} : ${trans}`);
+            if(j>5000) {
+                console.log("killed translator err : " + txt);
+                return;
+            }
+        } 
         (trans === "" || trans === undefined) ? trans = txt : null;
         sheet.innerText = trans;
     } else if (e === "m") {
@@ -143,6 +136,10 @@ var ld = (id, e) => {
                 trans += lang[j];
             }
             j++;
+            if(j>5000) {
+                console.log("killed translator err : " + txt);
+                return;
+            }
         }
         (trans === "" || trans === undefined) ? trans = "nope" : null;
         sheet.innerText = trans;
@@ -159,6 +156,10 @@ var ld = (id, e) => {
                     trans += lang[j];
                 }
                 j++;
+                if(j>5000) {
+                    console.log("killed translator err : " + txt);
+                    return;
+                }
             }
             // alert(`${txt} : ${trans}`);
             (trans === "" || trans === undefined) ? trans = txt : null;
@@ -218,7 +219,6 @@ var langSelect = (ch) => {
         });
 
         // console.log('done');
-
         rstate();
     }).catch((e) => {
 
@@ -301,11 +301,11 @@ var gbuild = () => {
                     document.getElementById('count').innerText = "";
                     img = document.getElementById('qimg');
                     img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + mix}q.jpg`;
-                    // uit('qimg', 0);
-                    uit('spin', 1);
+                    uit('qimg', 0);
+                    uit('qspin', 1);
                     img.onload = () => {
-                        // uit('qimg', 1);
-                        uit('spin', 0);
+                        uit('qspin', 0);
+                        uit('qimg', 1);
                     }
                     document.getElementById('op1').innerHTML = ops[0];
                     document.getElementById('op2').innerHTML = ops[1];
@@ -323,11 +323,11 @@ var gbuild = () => {
                     document.getElementById('count').innerText = `${sess + 1}/${g["set"][ses]["opts"].length}`
                     img = document.getElementById('qimg');
                     img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}.${sess + 1}q.jpg`;
-                    // uit('qimg', 0);
-                    uit('spin', 1);
+                    uit('qimg', 0);
+                    uit('qspin', 1);
                     img.onload = () => {
-                        // uit('qimg', 1);
-                        uit('spin', 0);
+                        uit('qimg', 1);
+                        uit('qspin', 0);
                     }
                     imgFit('qimg');
                     document.getElementById('op1').innerHTML = ops[0];
@@ -343,8 +343,6 @@ var gbuild = () => {
                     ff = 0;
                     uit('e-done', 1);
                     return;
-
-
                 }
 
                 if (mix !== 0) {
@@ -353,10 +351,14 @@ var gbuild = () => {
 
                 img = document.getElementById('aimg');
                 img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + 1}a.jpg`;
-                uit('spin', 1);
+                uit('aspin', 1);
+                uit('aimg', 0);
+
                 img.onload = () => {
-                    uit('spin', 0);
+                    uit('aspin', 0);
+                    uit('aimg', 1);
                 }
+
                 uit('ques', 0);
                 uit('ans', 1);
                 ses++;
@@ -378,11 +380,13 @@ var gbuild = () => {
     if (g["opts"]) {
         ops = g["opts"][sess];
         ans = g["ans"][sess];
-        img = document.getElementById('qimg')
+        img = document.getElementById('qimg');
         img.src = `/assets/images/core/${lvl}_${round + 1}_${sess + 1}q.jpg`;
-        uit('spin', 1);
+        uit('qspin', 1);
+        uit('qimg', 0);
         img.onload = () => {
-            uit('spin', 0);
+            uit('qspin', 0);
+            uit('qimg', 1);
         }
         imgFit('qimg');
         document.getElementById('op1').innerHTML = ops[0];
@@ -402,9 +406,11 @@ var next = (el) => {
         } else if (mix === 0) {
             img = document.getElementById('aimg')
             img.src = `/assets/images/core/${lvl}_${round + 1}_${sess}a.jpg`;
-            uit('spin', 1);
+            uit('aspin', 1);
+            uit('aimg', 0);
             img.onload = () => {
-                uit('spin', 0);
+                uit('aspin', 0);
+                uit('aimg', 1);
             }
             imgFit('aimg');
             uit('ques', 0);
@@ -412,15 +418,16 @@ var next = (el) => {
         } else {
             img = document.getElementById('aimg')
             img.src = `/assets/images/core/${lvl}_${round + 1}_${ses + mix}a.jpg`;
-            uit('spin', 1);
+            uit('aspin', 1);
+            uit('aimg', 0);
             img.onload = () => {
-                uit('spin', 0);
+                uit('aspin', 0);
+                uit('aimg', 1);
             }
             imgFit('aimg');
             uit('ques', 0);
             uit('ans', 1);
         }
-
     } else {
         uit('e-ans', 1);
     }
@@ -470,6 +477,7 @@ if (window.navigator.onLine !== true) {
 var runit = () => {
     localStorage.runit = "ok";
     localStorage.lang = document.getElementById('lang').value;
+    window.location.reload();
 }
 
 

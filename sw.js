@@ -9,7 +9,7 @@
 //     All Rights Reserved - https://github.com/AakashPandey/skyroutes
 
 
-const chng="thy-shall-be-done", vn="pre-30";
+const chng="shell-bee-gee-tee", vn="rel-1.2";
 var appCash=[
     "/index.html",
     // "/lib/skyroute.css",
