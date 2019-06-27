@@ -11,7 +11,7 @@ header {
     font-size: 150%;
     font-family: 'Dosis';
     /* background: #ffffff; */
-    background: #e85858;
+    background: #61d6f7;
     color: #ffffff;
     box-sizing: border-box;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 #header_btn:hover, #back:hover {
-    color: #ef9a9a
+    color: #b4ecfb;
 }
 
 /* MAIN UI COMPONENTS */
@@ -163,7 +163,7 @@ body {
     font-size: 105%;
     display: block !important;
     margin: 0 auto !important;
-    background: #f7423f !important;
+    background: #61d6f7 !important;
     color: #fff !important;
     width: 20% !important;
     height: 50px !important;
@@ -176,7 +176,7 @@ body {
 
 .back:hover {
     color: #fff !important;
-    background: #ec3f3d !important;
+    background: #5bc7e6 !important;
     box-shadow: 0px 0px 3px 0px rgb(231, 231, 231);
 
 }
@@ -380,10 +380,6 @@ body {
     display: none;
 }
 
-/* Phone UI */
-
-/* Old bezel era */
-
 @media only screen and (max-width: 800px) {
 
     #main, #back, header {
@@ -394,106 +390,4 @@ body {
         display: block !important;
     }
 
-
-
-    /* header {
-        font-size: 110%;
-    }
-    #home img {
-        width: 30%;
-        margin-top: 10%;
-    }
-    #desc {
-        margin-bottom: 40px;
-        width: 90%;
-    }
-    #lang_label {
-        margin-bottom: 40px;
-    }
-    #home select {
-        width: 40%;
-    }
-    #home button {
-        width: 20%;
-    }
-    #levels {
-        text-align: center;
-    }
-    #levels img {
-        width: 40%;
-        margin-top: 30px;
-        position: initial;
-    }
-    #levels div {
-        display: block;
-        margin: 0 auto;
-        position: initial;
-        margin-top: 20px;
-    }
-    #levels button {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 10px;
-        padding: 15px;
-        width: 90%;
-        font-size: 88%;
-        background: #ffffff;
-    }
-
-    .blk {
-        text-align: center;
-    }
-    .blk button {
-        vertical-align: top;
-        line-height: 25px;
-        box-sizing: border-box;
-        width: 160px;
-        height: 120px;
-        display: inline-block;
-        padding: 15px;
-        margin: 8px;
-        background: #fff;
-        font-size: 105%;
-        color: rgb(119, 119, 119);
-        box-shadow: 0px 0px 6px 0px rgb(223, 223, 223);
-        transform: translateX(0%);
-    }
-    .blk button:hover {
-        box-shadow: 0px 0px 3px 0px rgb(231, 231, 231);
-        color: rgb(34, 34, 34);
-    }
-
-    .back {
-        position: relative  !important;
-        /* display: block !important; */
-        /* margin: 0 auto !important; */
-        background: #f7423f !important;
-        color: #fff !important;
-        width: 40% !important;
-        height: 50px !important;
-        margin-top: 40px  !important;
-        bottom: 30px;
-        top: 20px;
-        transform: translateX(-125%) !important;
-    }
-    .back:hover {
-        color: #fff !important;
-        background: #ec3f3d !important;
-    } */
 }
-
-/* 16:9 or more */
-
-/* @media only screen and (max-width: 700px) and (min-height: 750px) {
-    #home img {
-        width: 30%;
-        margin-top: 13%;
-    }
-    #desc {
-        margin-top: 60px;
-        margin-bottom: 70px;
-        width: 90%;
-        font-size: 92%;
-        line-height: 27px;
-    }
-} */

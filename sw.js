@@ -9,7 +9,7 @@
 //     All Rights Reserved - https://github.com/AakashPandey/skyroutes
 
 
-const chng="for-whom-the-bell-tolls", vn="rel-1.5";
+const chng="rewired-x", vn="rel-1.1";
 var appCash=[
     "/index.html",
     "/lib/skyroute.css",
