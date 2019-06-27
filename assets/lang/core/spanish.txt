@@ -5,7 +5,7 @@ By Sotiris Delis & Christina Deli : Por Sotiris Delis & Christina Deli
 Incorrect answer : Respuesta incorrecta
 Try again : Inténtalo de nuevo
 Round completed : Ronda completada
-Maths Made Easy - Method ALPHA : Matemáticas hechas fáciles - método alfa
+Maths Made Easy - Method ALPHA : Matemáticas de Primer Grado - Método Alfa
 Back : Atrás
 Ok : De acuerdo
 Select preferred language : Seleccione el idioma preferido
@@ -106,4 +106,4 @@ Where to place the next 3 dots ? :  ¿Dónde colocar 3 puntos?
 Where to place the next dot ? : ¿Dónde marcar el siguiente punto?
 Which dot to remove next ? : ¿Qué punto eliminar a continuación?
 Start : comenzar
-Where to place the next 5 dots? :  ¿Dónde colocar 5 puntos?
+Where to place the next 5 dots ? - ¿Dónde colocar 5 puntos?

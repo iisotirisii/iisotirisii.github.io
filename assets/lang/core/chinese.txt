@@ -26,6 +26,7 @@ Reset progress : 重置进度
 Reset language : 重置语言
 
 Where to place the next 3 dots ? : 在接下来的3个点的位置？
+Where to place the next 5 dots ? : 接下来的五个点放在哪里?
 Where to place the next dot ? : 下一个点的步伐在哪里？
 Which dot to remove next ? : 下一个要删除的点？
 
@@ -50,6 +51,7 @@ Subtract within 20 - Case 1 : 减至20 - 例子1
 Subtract within 20 - Case 2 : 减至20 - 例子2
 
 
+Up to 100 : 最多至100
 Even : 双数
 Odd : 单数
 

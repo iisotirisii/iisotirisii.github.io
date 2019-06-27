@@ -1,9 +1,12 @@
 ﻿ENGLISH - JAPANESE
 
+
+
+
 By Sotiris Delis & Christina Deli : Sotiris Delis＆Christina Deli著
 Incorrect answer : 不正解
 Try again : 再試行する
-Round completed : ラウンド完了
+Round Completed : ラウンド完了
 Maths Made Easy - Method ALPHA : １年生の算数Method Alpha
 Back : 戻る
 Ok : オーケー
@@ -41,6 +44,8 @@ Sums up to 20 - Case 2 : 20までの足し算
 Subtract within 20 - Case 1 : 20までの引き算セット1
 Subtract within 20 - Case 2 : 20までの引き算セット2
 
+
+Up to 100 : 100まで
 Even : 偶数
 Odd : 奇数
 
@@ -99,7 +104,8 @@ Count and Backwards by 2 up to 20 : 2つ飛ばしで20まで数えよう（逆�
 
 
 Hi there! : こんにちは！ 数字と数学で苦労している？ あなたがゲームをプレイしているかのように私たちの簡単な数学のワークブックを使用すると、楽しく学ぶことができます！ それは魅力的で、簡単で、広告なしで完全に無料です。 探求し、それに応じて練習するあなたの時間をかけて！ あなたは学ぶことができます - 最大5、10、および20まで数える、足し算 - 引き算、そろばん（暗算）、除算、および数字の掛け方
-Where to place the next 3 dots ? : 次の3点をペーシングするどこ？
-Where to place the next dot ? : 次のドットのペースはどこですか？
-Which dot to remove next ? : 次にどのドットを削除しますか？
+Where to place the next 3 dots ? : 次の３つの点はどこに配置すればいいですか？
+Where to place the next 5 dots ? : 次の5つの点はどこに配置すればいいですか？
+Where to place the next dot ? : 次の点はどこに配置すればいいですか？
+Which dot to remove next ? : 次に消す点はどれ？
 Start : スタート
