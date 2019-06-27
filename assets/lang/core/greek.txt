@@ -10,7 +10,7 @@ Back : Πίσω
 Ok : Εντάξει
 
 Where to place the next 3 dots ? : Πού μπαίνει η επόμενη τριάδα;
-Where to place the next 5 dots ? - Πού μπαίνει η επόμενη πεντάδα;
+Where to place the next 5 dots ? : Πού μπαίνει η επόμενη πεντάδα;
 Where to place the next dot ? : Πού μπαίνει η επόμενη κουκκίδα;
 Which dot to remove next ? : Ποια κουκκίδα πρέπει να βγει;
 Start : Ξεκινάμε
