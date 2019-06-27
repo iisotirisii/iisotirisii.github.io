@@ -842,7 +842,7 @@
                         [5,7,3,6]
                     ],
                     "ans":[1, 2, 3],
-                    "ques" : "Where to place the next 3 dots ?"
+                    "ques" : "Where to place the next 5 dots ?"
                 },
                 {
                     "opts": [
