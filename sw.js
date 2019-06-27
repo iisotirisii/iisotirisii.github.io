@@ -9,7 +9,7 @@
 //     All Rights Reserved - https://github.com/AakashPandey/skyroutes
 
 
-const chng="rewired-x", vn="rel-1.1";
+const chng="rewired", vn="rel-1.2";
 var appCash=[
     "/index.html",
     "/lib/skyroute.css",
