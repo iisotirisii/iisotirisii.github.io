@@ -46,6 +46,7 @@ Subtract within 20 - Case 2: Մինչեւ 20 հանում Բ.
 Even : Զոյգ
 Odd : Կենտ
 
+Abacus : Աղիւսակ
 
 Add Doublets: Զոյգեր գումարէ՛
 Addition with 3 Numbers upto 10 : Մինչեւ 10, 3 թիւով գումարում
@@ -73,7 +74,6 @@ Up to 20 : Մինչեւ 20
 Up To 100 : Մինչեւ 100
 
 Addition - Subtraction : Գումարում- Հանում
-Abacus : Աղիւսակ
 Play again : Կրկի՛ն խաղա
 Next task : Յաջորդ վարժութիւն
 Repeat question : Հարցումը կրկնէ՛

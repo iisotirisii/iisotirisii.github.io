@@ -49,6 +49,7 @@ Up To 100 : الوصول إلى 100
 Even : زوجي
 Odd : فردي
 
+Abacus : العملية التراكمية
 
 Add Doublets : إضافة أزواج
 Addition with 3 Numbers upto 10 : إضافة 3 أرقام حتى 10
@@ -73,7 +74,6 @@ Up to 5 : الوصول الى 5
 Up to 10 : الوصول الى 10
 Up to 20 : الوصول الى 20
 Addition - Subtraction : الجمع - الطرح
-Abacus : العملية التراكمية
 Play again : لعب مرة أخرى
 Next task : المهمة التالية
 Repeat question : إعادة السؤال

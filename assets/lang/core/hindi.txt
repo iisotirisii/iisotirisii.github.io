@@ -43,6 +43,7 @@ Up to 100 : 100 तक
 Even : सम संख्या
 Odd : विषम संख्या
 
+Abacus : अबेकस
 
 Add Doublets: डबल जोड़ें
 Addition with 3 Numbers upto 10 : 3 संख्याओं के साथ जोड़ 10 तक
@@ -68,7 +69,6 @@ Up to 10 : 10 तक
 Up to 20 : 20 तक
 Up To 100 : 100 तक
 Addition - Subtraction : जोड़ - घटाव
-Abacus : अबेकस
 Play again : फिर से खेलना
 Next task : अगला काम
 Repeat question : दोहराने सवाल

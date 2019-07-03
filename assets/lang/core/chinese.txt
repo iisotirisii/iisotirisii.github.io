@@ -55,6 +55,7 @@ Up to 100 : 最多至100
 Even : 双数
 Odd : 单数
 
+Abacus : 算盘（心算）
 
 Add Doublets: 加双位数
 Addition with 3 Numbers upto 10 : 添加3个数字至10
@@ -82,7 +83,6 @@ Up to 20 : 至20
 Up To 100 : 至100
 
 Addition - Subtraction : 加法 - 减法
-Abacus : 算盘（心算）
 Play again : 再玩一次
 Next task : 下一个任务
 Repeat question : 重复问题

@@ -55,6 +55,8 @@ Subtract within 20 - Case 2 : Αφαίρεση ως το 20-Περίπτωση 2
 Even : Ζυγοί αριθμοί
 Odd : Μονοί αριθμοί
 
+Abacus : Άβακας
+
 Add Doublets : Διπλά αθροίσματα
 Addition with 3 Numbers upto 10 : Πρόσθεση 3 αριθμών ως το 10 
 Addition with 3 Numbers upto 20 : Πρόσθεση 3 αριθμών ως το 20
@@ -81,7 +83,6 @@ Up to 20 : Ως το 20
 Up To 100 :  Ως το 100
 
 Addition - Subtraction : Πρόσθεση - Αφαίρεση
-Abacus : Άβακας
 Play again : Παίξε ξανά
 Next task : Επόμενο επίπεδο
 Repeat question : Επανάληψη ερώτησης

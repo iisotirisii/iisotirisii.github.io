@@ -50,6 +50,7 @@ Subtract within 20 - Case 2: Restas hasta el 20 – Caso 2
 Even : Par
 Odd : Impar
 
+Abacus : Ábaco
 
 Add Doublets: Añadir dobletes
 Addition with 3 Numbers upto 10 : Suma con 3 Números hasta 10
@@ -76,7 +77,6 @@ Up to 10 : hasta 10
 Up to 20 : hasta 20
 Up To 100 : hasta 100
 Addition - Subtraction : Suma - Resta
-Abacus : Ábaco
 Play again : Juega de nuevo
 Next task : Siguiente tarea
 Repeat question : Repetir pregunta
