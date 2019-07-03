@@ -79,7 +79,7 @@ Up to 10 : 10まで
 Up to 20 : 20まで
 Up To 100 : 100まで
 Addition - Subtraction : 足し算-引き算
-Abacus : そろばん
+Abacus : そろばん（暗算）
 Play again : もう一度解く
 Next task : 次の問題
 Repeat question : もう一度

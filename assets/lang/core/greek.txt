@@ -46,9 +46,9 @@ Making 10 : Ζευγαράκια του 10
 
 
 Count and Backwards between 10 and 20 : Ανεβαίνω-Κατεβαίνω 10 ως  20
-Count and Backwards by 2 up to 20 : Count kai Backwards apó 2 éos 20
-Sums up to 20 - Case 1 : πρόσθεση ως το 20-Περίπτωση 1
-Sums up to 20 - Case 2 : πρόσθεση ως το 20-Περίπτωση 2
+Count and Backwards by 2 up to 20 : Ανεβαίνω-Κατεβαίνω ανά 2  ως το 20
+Sums up to 20 - Case 1 : Πρόσθεση ως το 20 - Περίπτωση 1
+Sums up to 20 - Case 2 : Πρόσθεση ως το 20 - Περίπτωση 2
 Subtract within 20 - Case 1 : Αφαίρεση ως το 20-Περίπτωση 1
 Subtract within 20 - Case 2 : Αφαίρεση ως το 20-Περίπτωση 2
 
@@ -62,7 +62,7 @@ Cumulative law of Addition : Αντιμεταθετική ιδιότητα πρ�
 Property Subtraction : Ιδιότητα αφαίρεσης
 Abacus upto 100 : ’Αβακας ως το 100
 Addition with Abacus : Πρόσθεση με άβακα
-Subtraction with Abacus : Αφσίρεση με άβακα
+Subtraction with Abacus : Αφαίρεση με Άβακα
 Abacus upto 1000 : ’Αβακας ως το 1000
 Multiplication : Πολλαπλασιασμός
 Relate Addition and Multiplication : Σχέση πρόσθεσης και πολλαπλασιασμού

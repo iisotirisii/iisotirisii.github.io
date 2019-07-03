@@ -6,7 +6,7 @@ Incorrect answer : 错误答案
 Correct answer : 正确答案
 Try again : 再试一次
 Round completed : 圆形完成
-Maths Made Easy - Method ALPHA : 年级数学 - 阿尔法方法
+Maths Made Easy - Method ALPHA : 一年级数学 - 阿尔法方法
 Back : 背部
 Ok : 好
 Select preferred language : 选择首选语言
@@ -82,7 +82,7 @@ Up to 20 : 至20
 Up To 100 : 至100
 
 Addition - Subtraction : 加法 - 减法
-Abacus : 算盘
+Abacus : 算盘（心算）
 Play again : 再玩一次
 Next task : 下一个任务
 Repeat question : 重复问题
