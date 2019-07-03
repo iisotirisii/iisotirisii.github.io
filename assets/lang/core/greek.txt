@@ -60,10 +60,10 @@ Addition with 3 Numbers upto 10 : Πρόσθεση 3 αριθμών ως το 10
 Addition with 3 Numbers upto 20 : Πρόσθεση 3 αριθμών ως το 20
 Cumulative law of Addition : Αντιμεταθετική ιδιότητα πρόσθεσης
 Property Subtraction : Ιδιότητα αφαίρεσης
-Abacus upto 100 : ’Αβακας ως το 100
-Addition with Abacus : Πρόσθεση με άβακα
-Subtraction with Abacus : Αφαίρεση με Άβακα
-Abacus upto 1000 : ’Αβακας ως το 1000
+Abacus upto 100 : Άβακας ως το 100
+Addition with Abacus : Πρόσθεση με Άβακας
+Subtraction with Abacus : Αφαίρεση με Άβακας
+Abacus upto 1000 : Άβακας ως το 1000
 Multiplication : Πολλαπλασιασμός
 Relate Addition and Multiplication : Σχέση πρόσθεσης και πολλαπλασιασμού
 Cumulative law of Multiplication : Αντιμεταθετική ιδιότητα πολλαπλασιασμού
