@@ -56,7 +56,7 @@ Addition with 3 Numbers upto 10 : 3つの数字で10までの足し算
 Addition with 3 Numbers upto 20 : 3つの数字で20までの足し算
 Cumulative law of Addition : 足し算の交換法則
 Property Subtraction : 引き算
-Abacus up to 100 : 100までのそろばん
+Abacus upto 100 : 100までのそろばん
 Addition with Abacus : そろばんの足し算
 Subtraction with Abacus : そろばんの引き算
 Abacus upto 1000 : 1000までのそろばん
