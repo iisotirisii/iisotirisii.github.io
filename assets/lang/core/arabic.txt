@@ -45,7 +45,7 @@ Sums up to 20 - Case 2 : اجمع حتى تحصل على 20 – حالة 2
 Subtract within 20 - Case 1 : اطرح حتى تحصل على 20 – حالة 1
 Subtract within 20 - Case 2: اطرح حتى تحصل على 20 – حالة 2
 
-Up To 100 : الوصول إلى 100
+Up To 10 : الوصول إلى 10
 Even : زوجي
 Odd : فردي
 
