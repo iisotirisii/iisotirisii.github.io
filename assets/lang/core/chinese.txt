@@ -62,7 +62,7 @@ Addition with 3 Numbers upto 10 : 添加3个数字至10
 Addition with 3 Numbers upto 20 : 添加3个数字至20
 Cumulative law of Addition: 加法累计法
 Property Subtraction : 属性减法
-Abacus up to 100 : 算盘加至100
+Abacus upto 100 : 算盘加至100
 Addition with Abacus : 算盘加法
 Subtraction with Abacus : 算盘减法
 Abacus upto 1000 : 算盘加至1000
