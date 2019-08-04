@@ -57,7 +57,7 @@ Addition with 3 Numbers upto 10 : Suma con 3 Números hasta 10
 Addition with 3 Numbers upto 20: Suma con 3 Números hasta 20
 Cumulative law of Addition: Ley acumulativa de la Suma
 Property Subtraction : Propiedades de la Resta
-Abacus up to 100 : Ábaco hasta 100
+Abacus upto 100 : Ábaco hasta 100
 Addition with Abacus : Sumas con Ábaco
 Subtraction with Abacus : Restas con Ábaco
 Abacus upto 1000 : Ábaco hasta 1000
