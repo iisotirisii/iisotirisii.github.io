@@ -1,0 +1,103 @@
+ENGLISH - GERMAN
+
+Hi there! : Hi, hast du Probleme mit Zahlen und Mathe? Mit unserem einfachen Mathe Arbeitsbuch kannst du mit Spaß lernen – als ob du ein Spiel spielst! Es ist ansprechend, einfach & komplett kostenlos, ohne Werbung. Nimm dir Zeit zum Erkunden und Üben! Du lernst – bis 5, 10 und 20 zählen, Addition – Subtraktion, Abakus (mentale Mathe), Division und wie man Zahlen multipliziert.
+Incorrect answer : Falsche Antwort
+By Sotiris Delis : Von Sotiris Delis
+Try again : Versuche es nochmal
+Round completed : Runde vervollständigt
+Maths Made Easy - Method ALPHA : Erste Klasse Mathe
+Back : Zurück
+Ok : Ok
+
+Where to place the next 3 dots ? : Wohin kommen die nächsten 3 Punkte?
+Where to place the next 5 dots ? : Wohin kommen die nächsten 5 Punkte?
+Where to place the next dot ? : Wohin kommt der nächste Punkt?
+Which dot to remove next ? : Welcher Punkt muss als nächstes entfernt werden?
+Start : Start
+Next : Nächste
+
+Select preferred language : Wähle deine Sprache
+Please try again : Bitte versuche es nochmal
+Correct answer : Richtige Antwort
+Task : Aufgabe
+Settings : Einstellungen
+Reset progress : Reset Fortschritt
+Reset language : Reset Sprache
+
+Count to 5 : Zähle bis 5
+Hidden fingers up to 5 : Versteckte Finger bis zu 5
+Sums up to 5 : Addiere bis 5
+Subtract up to 5 : Subtrahiere bis 5
+Making 3 : Ergibt 3
+Making 4 : Ergibt 4
+Making 5 : Ergibt 5
+
+Count To 10 : Zähle bis 10
+Hidden Fingers up to 10 : Versteckte Finger bis zu 10
+Count and Backwards up to 10 : Zähle vorwärts und rückwärts bis 10
+Sums up to 10 : Addiere bis 10
+Subtract up to 10 : Subtrahiere bis 10
+Count and Backwards by 2 : Zähle vorwärts und rückwärts in 2er Schritten
+Making 6 : Ergibt 6
+Making 7 : Ergibt 7
+Making 8 : Ergibt 8
+Making 9 : Ergibt 9
+Making 10 : Ergibt 10
+
+
+Count and Backwards between 10 and 20 : Zähle vorwärts und rückwärts zwischen 10 und 20
+Count and Backwards by 2 up to 20 : Zähle vorwärts und rückwärts in 2er Schritten bis 20
+Sums up to 20 - Case 1 : Addiert sich auf 20-Fall 1
+Sums up to 20 - Case 2 : Addiert sich auf 20-Fall 2
+Subtract within 20 - Case 1 : Subtrahiert sich auf 20- Fall 1 
+Subtract within 20 - Case 2 : Subtrahiert sich auf 20- Fall 2
+
+Even : Gerade
+Odd : Ungerade
+
+Abacus : Abakus
+
+Add Doublets : Addiere Dubletten
+Addition with 3 Numbers upto 10 : Addition mit 3 Zahlen bis zu 10
+Addition with 3 Numbers upto 20 : Addition mit 3 Zahlen bis zu 20
+Cumulative law of Addition : Kumulatives Additionsgesetz
+Property Subtraction : Eigenschaftssubtraktion
+Abacus upto 100 : Abakus bis zu 100
+Addition with Abacus : Addition mit Abakus
+Subtraction with Abacus : Subtraktion mit Abakus
+Abacus upto 1000 : Abakus bis zu 1000
+Multiplication : Multiplikation
+Relate Addition and Multiplication : Verknüpfte Addition und Multiplikation
+Cumulative law of Multiplication : Kumulatives Multiplikationsgesetz
+Multiplication Problems : Multiplikations Probleme
+Multiplication - Division : Multiplikation-Division
+Division a : Division Fall A
+Division b : Division Fall B
+
+
+Counting : Zählen
+sum : Addiere
+Up to 5 : bis zu 5
+Up to 10 : bis zu 10
+Up to 20 : bis zu 20
+Up To 100 : bis zu 100
+
+Addition - Subtraction : Addition- Subtraktion
+Play again : Nochmal spielen
+Next task : Nächste Aufgabe
+Repeat question : Frage wiederholen
+Next question : Nächste Frage
+
+Task 1 : Aufgabe 1
+Task 2 : Aufgabe 2
+Task 3 : Aufgabe 3
+Task 4 : Aufgabe 4
+Task 5 : Aufgabe 5
+Task 6 : Aufgabe 6
+Task 7 : Aufgabe 7
+Task 8 : Aufgabe 8
+Task 9 : Aufgabe 9
+Task 10 : Aufgabe 10
+Task 11 : Aufgabe 11
+Task 12 : Aufgabe 12
+

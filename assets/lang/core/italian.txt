@@ -1,0 +1,103 @@
+ENGLISH - ITALIAN
+
+Hi there! : Ciao! Ti stai divertendo con numeri e matematica? Con la nostra semplice libro di compiti di matematica puoi imparare divertendoti, come se stessi giocando! È accattivante, facile e completamente gratuito, senza pubblicità. Prenditi il tuo tempo per esplorare e mettere in pratica quello che impari! Puoi imparare: contare fino a 5, 10 e 20, fare addizioni-sottrazioni, usare l’abaco (matematica mentale), fare divisioni e moltiplicazioni dei numeri.
+Incorrect answer : Risposta sbagliata
+By Sotiris Delis : Di Sotiris Delis
+Try again : favore riprova
+Round completed : Round completato
+Maths Made Easy - Method ALPHA : Matematica per prima elementar
+Back : Indietro
+Ok : Ok
+
+Where to place the next 3 dots ? : Dove posizionare i prossimi 3 punti?
+Where to place the next 5 dots ? : Dove posizionare i prossimi 5 punti?
+Where to place the next dot ? : Dove posizionare il punto successivo?
+Which dot to remove next ? : Quale punto rimuovere dopo?
+Start : Inizio
+Next : prossimo
+
+Select preferred language : Seleziona lingua preferita
+Please try again : Per favore riprova
+Correct answer : Risposta corretta
+Task : Compito
+Settings : impostazioni
+Reset progress : Reimposta avanzamento
+Reset language : Reimposta lingua
+
+Count to 5 : Conta fino a 5
+Hidden fingers up to 5 : Dita nascoste fino a 5
+Sums up to 5 : ASomma fino a 5
+Subtract up to 5 : Sottrai fino a 5
+Making 3 : Fare 3
+Making 4 : Fare 4
+Making 5 : Fare 5
+
+Count To 10 : Conta fino a 10
+Hidden Fingers up to 10 : Dita nascoste fino a 10
+Count and Backwards up to 10 : Contare fino a 10 e tornare indietro
+Sums up to 10 : Somma fino a 10
+Subtract up to 10 : Subtrahiere bis 10
+Count and Backwards by 2 : Contare e tornare indietro per 2
+Making 6 : Fare 6
+Making 7 : Fare 7
+Making 8 : Fare 8
+Making 9 : Fare 9
+Making 10 : Fare 10
+
+
+Count and Backwards between 10 and 20 : Contare da 10 e 20 e tornare indietro
+Count and Backwards by 2 up to 20 : Contare fino a 20 per due e tornare indietro
+Sums up to 20 - Case 1 : Somma fino a 20-Caso 1
+Sums up to 20 - Case 2 : Somma fino a 20-Caso 2
+Subtract within 20 - Case 1 : Sottrai fino a 20-Caso 1
+Subtract within 20 - Case 2 : Sottrai fino a 20-Caso 2
+
+Even : Pari
+Odd : Dispari
+
+Abacus : Abaco
+
+Add Doublets : Aggiungere doppie
+Addition with 3 Numbers upto 10 : Addizione con 3 numeri fino a 10
+Addition with 3 Numbers upto 20 : Addizione con 3 numeri fino a 20
+Cumulative law of Addition : Legge commutativa dell'addizione
+Property Subtraction : Proprietà della sottrazione
+Abacus upto 100 : Abaco fino a 100
+Addition with Abacus : Addizione con Abaco
+Subtraction with Abacus : Sottrazione con Abaco
+Abacus upto 1000 : Abaco fino a 1000
+Multiplication : Moltiplicazione
+Relate Addition and Multiplication : Addizione e moltiplicazione correlate
+Cumulative law of Multiplication : Legge cumulativa di moltiplicazione
+Multiplication Problems : Problemi di moltiplicazione
+Multiplication - Division : Moltiplicazione-Divisione
+Division a : Caso di divisione a
+Division b : Caso di divisione b
+
+
+Counting : Contare
+sum : somma
+Up to 5 : fino a 5
+Up to 10 : fino a 10
+Up to 20 : fino a 20
+Up To 100 : fino a 100
+
+Addition - Subtraction : Addizione - Sottrazione
+Play again : Gioca di nuovo
+Next task : Compito successivo
+Repeat question : Ripeti la domanda
+Next question : Prossima domanda
+
+Task 1 : Compito 1
+Task 2 : Compito 2
+Task 3 : Compito 3
+Task 4 : Compito 4
+Task 5 : Compito 5
+Task 6 : Compito 6
+Task 7 : Compito 7
+Task 8 : Compito 8
+Task 9 : Compito 9
+Task 10 : Compito 10
+Task 11 : Compito 11
+Task 12 : Compito 12
+

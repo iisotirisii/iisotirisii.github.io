@@ -1,0 +1,103 @@
+ENGLISH - FRENCH
+
+Hi there! : Salut ! Vous éprouvez des difficultés avec les chiffres et les mathématiques ? Avec notre cahier mathématique simple, vous pouvez apprendre en vous amusant, comme si vous jouiez à un jeu! C’est attrayant, facile et totalement gratuit, sans publicité. Prenez votre temps pour explorer et pratiquer en conséquence! Vous pouvez apprendre - Compter jusqu'à 5, 10 et 20, addition-soustraction, abaque (calcul mental), division et apprendre à multiplier des nombres.
+Incorrect answer : Réponse incorrecte
+By Sotiris Delis : De Sotiris Delis
+Try again : Réessayer
+Round completed : Ronde terminée
+Maths Made Easy - Method ALPHA : Mathématique de la première année
+Back : Retour
+Ok : Ok
+
+Where to place the next 3 dots ? : Où placer les 3 prochains points ?
+Where to place the next 5 dots ? : Où placer les 5 prochains points ?
+Where to place the next dot ? : Où placer le prochain point ?
+Which dot to remove next ? : Quel le point à supprimer ensuite ?
+Start : Début
+Next : suivant
+
+Select preferred language : Sélectionnez la langue préférée
+Please try again : Veuillez réessayer
+Correct answer : Bonne réponse
+Task : Tâche
+Settings : Réglages
+Reset progress : réinitialiser les progrès
+Reset language : réinitialiser la langue
+
+Count to 5 : Comptez jusqu'à 5
+Hidden fingers up to 5 : Doigts cachés jusqu'à 5
+Sums up to 5 : Calculer Jusqu'à 5
+Subtract up to 5 : Soustrayez jusqu'à 5
+Making 3 : Faire 3
+Making 4 : Faire 4
+Making 5 : Faire 5
+
+Count To 10 : Comptez jusqu'à 10
+Hidden Fingers up to 10 : Doigts cachés jusqu'à 10
+Count and Backwards up to 10 : Compter et reculer entre 10 et 20
+Sums up to 10 : Calculer Jusqu'à 10
+Subtract up to 10 : Soustrayez jusqu'à 10
+Count and Backwards by 2 : CCompter et reculer par 2 
+Making 6 : Faire 6
+Making 7 : Faire 7
+Making 8 : Faire 8
+Making 9 : Faire 9
+Making 10 : Faire 10
+
+
+Count and Backwards between 10 and 20 : Compter et reculer entre 10 et 20
+Count and Backwards by 2 up to 20 : Compter et reculer de 2 à 20
+Sums up to 20 - Case 1 : Calculer jusqu'à 20-cas 1 
+Sums up to 20 - Case 2 : Calculer jusqu'à 20-cas 2
+Subtract within 20 - Case 1 : Soustrayez jusqu'à 20-cas 1
+Subtract within 20 - Case 2 : Soustrayez jusqu'à 20-cas 2
+
+Even : Même
+Odd : Impair
+
+Abacus : Abaque
+
+Add Doublets : Ajouter des doublets
+Addition with 3 Numbers upto 10 : Ajout avec 3 numéros jusqu'à 10
+Addition with 3 Numbers upto 20 : Ajout avec 3 numéros jusqu'à 20
+Cumulative law of Addition : Loi cumulative d'addition
+Property Subtraction : Soustraction de propriété
+Abacus upto 100 : Abaque jusqu'à 100
+Addition with Abacus : Ajout avec Abaque
+Subtraction with Abacus : Soustraction avec boulier
+Abacus upto 1000 : Abaque jusqu'à 1000
+Multiplication : Multiplication
+Relate Addition and Multiplication : Loi cumulative de multiplication
+Cumulative law of Multiplication : Loi cumulative de multiplication
+Multiplication Problems : Problèmes de multiplication
+Multiplication - Division : Multiplication-Division
+Division a : Division cas a
+Division b : Division cas b
+
+
+Counting : Compte
+sum : somme
+Up to 5 : jusqu'à 5
+Up to 10 : jusqu'à 10
+Up to 20 : jusqu'à 20
+Up To 100 : jusqu'à 100
+
+Addition - Subtraction : Addition- Soustraction
+Play again : Rejouer
+Next task : Prochaine tâche
+Repeat question : Répétez la question
+Next question : Question suivante
+
+Task 1 : Tâche 1
+Task 2 : Tâche 2
+Task 3 : Tâche 3
+Task 4 : Tâche 4
+Task 5 : Tâche 5
+Task 6 : Tâche 6
+Task 7 : Tâche 7
+Task 8 : Tâche 8
+Task 9 : Tâche 9
+Task 10 : Tâche 10
+Task 11 : Tâche 11
+Task 12 : Tâche 12
+

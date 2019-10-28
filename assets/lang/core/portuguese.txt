@@ -5,7 +5,7 @@ Incorrect answer : Resposta incorreta
 By Sotiris Delis : KPor Sotiris Delis
 Try again : Tentar novamente
 Round completed : Rodada concluída
-Maths Made Easy - Method ALPHA : Matemática facilitada
+Maths Made Easy - Method ALPHA : Matemática de 1° Série
 Back : Voltar
 Ok : Ok
 
@@ -80,7 +80,7 @@ sum : soma
 Up to 5 : Até 5
 Up to 10 : Até 10
 Up to 20 : Até 20
-Up To 100 :  Até 100
+Up To 100 : Até 100
 
 Addition - Subtraction : Adição-Subtração
 Play again : Jogar novamente

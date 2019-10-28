@@ -5,7 +5,7 @@ Incorrect answer : Неправильный ответ
 By Sotiris Delis : Автор Сотирис Делис
 Try again : Попробуй еще раз
 Round completed : Раунд завершен 
-Maths Made Easy - Method ALPHA : Математика для 1 класса 
+Maths Made Easy - Method ALPHA : Математика для 1 класса
 Back : Назад
 Ok : Ok
 
@@ -80,7 +80,7 @@ sum : сум
 Up to 5 : до 5
 Up to 10 : до 10
 Up to 20 : до 20
-Up To 100 :  до 100
+Up To 100 : до 100
 
 Addition - Subtraction : Сложение - Вычитание
 Play again : Играть снова
