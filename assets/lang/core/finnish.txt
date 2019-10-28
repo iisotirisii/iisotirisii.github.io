@@ -1,0 +1,103 @@
+ENGLISH - FINNISH
+
+Hi there! : Moi! Onko sinulla ongelmia numeroiden ja matematiikan parissa? Yksinkertaisten matematiikkatehtäviemme avulla voit oppia pitäen samalla hauskaa! Se on koukuttavaa, helppoa ja täysin ilmaista, ja mainoksia ei ole. Tutustu ja harjoittele ajan kanssa! Voit oppia – laskemaan viiteen, kymmeneen ja kahteenkymmeneen, lisäys- ja vähennyslaskuja, laskutauluja sekä jako- ja kertolaskuja.
+Incorrect answer : Väärä vastaus
+By Sotiris Delis & Christina Deli : Kehittäjät: Sotiris Delis
+Try again : Yritä uudelleen
+Round completed : Kierros suoritettu
+Maths Made Easy - Method ALPHA : Helppoa matematiikkaa
+Back : Takaisin
+Ok : Ok
+
+Where to place the next 3 dots ? : Minne seuraavat 3 pistettä kuuluvat?
+Where to place the next 5 dots ? : Minne seuraavat 5 pistettä kuuluvat?
+Where to place the next dot ? : Minne seuraava piste kuuluu?
+Which dot to remove next ? : Mikä piste poistetaan seuraavaksi?
+Start : Aloita
+Next : Seuraava
+
+Select preferred language : Valitse haluamasi kieli
+Please try again : Yritä uudelleen
+Correct answer : Oikea vastaus
+Task : Tehtävä
+Settings : asetukset
+Reset progress : nollaa edistyminen
+Reset language : reset Kieli
+
+Count to 5 : Laske 5 asti
+Hidden fingers up to 5 : Piilotetut sormet 5 asti 
+Sums up to 5 : Laske yhteen 5 asti
+Subtract up to 5 : Vähennä 5 asti
+Making 3 : Saadaan 3
+Making 4 : Saadaan 4
+Making 5 : Saadaan 5
+
+Count To 10 : Laske 10 asti
+Hidden Fingers up to 10 : Piilotetut sormet 10 asti 
+Count and Backwards up to 10 : Laske ja takaperin 10 asti
+Sums up to 10 : Laske yhteen 10 asti
+Subtract up to 10 : Vähennä 10 asti
+Count and Backwards by 2 : Laske ja takaperin kahdella (2)
+Making 6 : Saadaan 6
+Making 7 : Saadaan 7
+Making 8 : Saadaan 8
+Making 9 : Saadaan 9
+Making 10 : Saadaan 10
+
+
+Count and Backwards between 10 and 20 : Laske ja takaperin 10–20
+Count and Backwards by 2 up to 20 : Laske ja takaperin kahdella (2) 20 asti
+Sums up to 20 - Case 1 : Laske yhteen 20 asti – Tapaus 1
+Sums up to 20 - Case 2 : Laske yhteen 20 asti – Tapaus 2
+Subtract within 20 - Case 1 : Vähennä 20 asti – Tapaus 1
+Subtract within 20 - Case 2 : Vähennä 20 asti – Tapaus 2
+
+Even : Parilliset
+Odd : Parittomat
+
+Abacus : Laskutaulu
+
+Add Doublets : Lisää parit
+Addition with 3 Numbers upto 10 : Lisätään 3 numeroa 10 asti
+Addition with 3 Numbers upto 20 : Lisätään 3 numeroa 20 asti
+Cumulative law of Addition : Lisäyksen kumulatiivinen laki
+Property Subtraction : Vähennyksen ominaisuudet
+Abacus upto 100 : Laskutaulu 100 asti
+Addition with Abacus : Lisääminen laskutaululla
+Subtraction with Abacus : Vähentäminen laskutaululla
+Abacus upto 1000 : Laskutaulu 1000 asti
+Multiplication : Kertominen
+Relate Addition and Multiplication : Yhdistä lisäys ja kertolasku
+Cumulative law of Multiplication : Kertomisen kumulatiivinen laki
+Multiplication Problems : Kertomisongelmat
+Multiplication - Division : Kerto – Jako
+Division a : Jakotapaus a
+Division b : Jakotapaus b
+
+
+Counting : Счет
+sum : сум
+Up to 5 : до 5
+Up to 10 : до 10
+Up to 20 : до 20
+Up To 100 :  до 100
+
+Addition - Subtraction : Сложение - Вычитание
+Play again : Играть снова
+Next task : следующая задача
+Repeat question : Повторить вопрос
+Next question : Следующий вопрос
+
+Task 1 : Tehtävä 1
+Task 2 : Tehtävä 2
+Task 3 : Tehtävä 3
+Task 4 : Tehtävä 4
+Task 5 : Tehtävä 5
+Task 6 : Tehtävä 6
+Task 7 : Tehtävä 7
+Task 8 : Tehtävä 8
+Task 9 : Tehtävä 9
+Task 10 : Tehtävä 10
+Task 11 : Tehtävä 11
+Task 12 : Tehtävä 12
+

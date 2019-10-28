@@ -1,5 +1,5 @@
 ﻿ENGLISH -ARMENIAN
-By Sotiris Delis & Christina Deli : Ըստ Sotiris Delis & Christina Deli
+By Sotiris Delis : Ըստ Sotiris Delis
 Incorrect answer : սխալ պատասխանը
 Try again : փորձեք կրկին
 Round completed : կլոր ավարտվել

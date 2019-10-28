@@ -1,0 +1,103 @@
+ENGLISH - PORTUGUESE
+
+Hi there! : Olá! Passando por dificuldades com números e matemática? Com o nosso manual simples de matemática, você pode aprender com diversão, como se estivesse jogando um jogo! É envolvente, fácil e totalmente gratuito, sem anúncios. Tome seu tempo para explorar e praticar em adequadamente! Você pode aprender - Contar até 5, 10 e 20, adição e subtração, ábaco (matemática mental), divisão e como multiplicar números.
+Incorrect answer : Resposta incorreta
+By Sotiris Delis : KPor Sotiris Delis
+Try again : Tentar novamente
+Round completed : Rodada concluída
+Maths Made Easy - Method ALPHA : Matemática facilitada
+Back : Voltar
+Ok : Ok
+
+Where to place the next 3 dots ? : Onde colocar os próximos 3 pontos?
+Where to place the next 5 dots ? : Onde colocar os próximos 5 pontos?
+Where to place the next dot ? : Onde colocar o próximo ponto? 
+Which dot to remove next ? : Qual ponto remover a seguir? 
+Start : Começar
+Next : Próximo
+
+Select preferred language : Selecione seu idioma preferido
+Please try again : Por favor, tente novamente 
+Correct answer : Resposta Correta
+Task : Tarefa
+Settings : configurações
+Reset progress : redefinir o progresso
+Reset language : linguagem de reset
+
+Count to 5 : Conte até 5
+Hidden fingers up to 5 : Dedos Ocultos até 5
+Sums up to 5 : Somas até 5
+Subtract up to 5 : Subtrações até 5
+Making 3 : Fazendo 3
+Making 4 : Fazendo 4
+Making 5 : Fazendo 5
+
+Count To 10 : Conte até 10
+Hidden Fingers up to 10 : Dedos Ocultos até 10
+Count and Backwards up to 10 : Conte de Trás pra Frente até 10
+Sums up to 10 : Somas até 10
+Subtract up to 10 : Subtrações até 10
+Count and Backwards by 2 : Conte de Trás pra Frente por 2
+Making 6 : Fazendo 6
+Making 7 : Fazendo 7
+Making 8 : Fazendo 8
+Making 9 : Fazendo 9
+Making 10 : Fazendo 10
+
+
+Count and Backwards between 10 and 20 : Conte de Trás pra Frente entre 10 e 20
+Count and Backwards by 2 up to 20 : Conte de Trás pra Frente por 2 até 20 
+Sums up to 20 - Case 1 : Somas até 20-Caso 1 
+Sums up to 20 - Case 2 : Somas até 20-Caso 2
+Subtract within 20 - Case 1 : Subtrações até 20-Caso 1
+Subtract within 20 - Case 2 : Subtrações até 20-Caso 2
+
+Even : Ímpar
+Odd : Par
+
+Abacus : Ábaco
+
+Add Doublets : Adicionar pares
+Addition with 3 Numbers upto 10 : Adição com 3 Números até 10
+Addition with 3 Numbers upto 20 : Adição com 3 Números até 20
+Cumulative law of Addition : Lei Comutativa da Adição
+Property Subtraction : Subtração de Propriedade
+Abacus upto 100 : Ábaco até 100
+Addition with Abacus : Adição com Ábaco
+Subtraction with Abacus : Subtração com Ábaco
+Abacus upto 1000 : Ábaco até 1000 
+Multiplication : Multiplicação
+Relate Addition and Multiplication : Adição Relacional e Multiplicação
+Cumulative law of Multiplication : Lei Comutativa da Multiplicação
+Multiplication Problems : Problemas de Multiplicação
+Multiplication - Division : Multiplicação-Divisão
+Division a : Divisão caso a 
+Division b : Divisão caso b
+
+
+Counting : Contando
+sum : soma
+Up to 5 : Até 5
+Up to 10 : Até 10
+Up to 20 : Até 20
+Up To 100 :  Até 100
+
+Addition - Subtraction : Adição-Subtração
+Play again : Jogar novamente
+Next task : Próxima tarefa
+Repeat question : Repetir questão
+Next question : Próxima questão
+
+Task 1 : Tarefa 1
+Task 2 : Tarefa 2
+Task 3 : Tarefa 3
+Task 4 : Tarefa 4
+Task 5 : Tarefa 5
+Task 6 : Tarefa 6
+Task 7 : Tarefa 7
+Task 8 : Tarefa 8
+Task 9 : Tarefa 9
+Task 10 : Tarefa 10
+Task 11 : Tarefa 11
+Task 12 : Tarefa 12
+

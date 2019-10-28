@@ -1,6 +1,6 @@
 ﻿ENGLISH - ARABIC
 
-By Sotiris Delis & Christina Deli : بقلم سوتيريس ديليس وكريستينا ديلي
+By Sotiris Delis : بقلم سوتيريس ديليس وكريستينا ديلي
 Incorrect answer : إجابة غير صحيحة
 Try again : حاول مرة أخري
 Round completed : أنهى جولة
