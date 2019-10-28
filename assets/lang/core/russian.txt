@@ -1,0 +1,103 @@
+ENGLISH - RUSSIAN
+
+Hi there! : Привет! Математика дается тебе нелегко? Наши задания помогут тебе учиться и играть в интересную игру одновременно! Просто, увлекательно и абсолютно бесплатно. Без рекламы. Все, что тебе нужно — это хорошенько подумать и дать ответ. Здесь ты научишься считать до 5 и до 20, складывать и вычитать числа, считать на пальцах, как на счетах (то есть считать в уме), а также умножать и делить.
+Incorrect answer : Неправильный ответ
+By Sotiris Delis & Christina Deli : Автор Сотирис Делис
+Try again : Попробуй еще раз
+Round completed : Раунд завершен 
+Maths Made Easy - Method ALPHA : Математика для 1 класса 
+Back : Назад
+Ok : Ok
+
+Where to place the next 3 dots ? : Где поставить следующие 3 точки?
+Where to place the next 5 dots ? : Где поставить следующие 5 точки?
+Where to place the next dot ? : Где поставить следующую точку?
+Which dot to remove next ? : Какую точку убрать сейчас?
+Start : Старт
+Next : следующий
+
+Select preferred language : Выберите язык
+Please try again : Пожалуйста, попробуй еще раз
+Correct answer : Правильный ответ
+Task : задачей
+Settings : настройки
+Reset progress : сброс прогресса
+Reset language : сброс языка
+
+Count to 5 : Счет до 5
+Hidden fingers up to 5 : Спрятанные пальцы до 5
+Sums up to 5 : Сложение до 5
+Subtract up to 5 : ычитание до 5
+Making 3 : Упражнения 3
+Making 4 : Упражнения 4
+Making 5 : Упражнения 5
+
+Count To 10 : Счет до 10
+Hidden Fingers up to 10 : Спрятанные пальцы до 10
+Count and Backwards up to 10 : Прямой и обратный счет до 10
+Sums up to 10 : Сложение до 10
+Subtract up to 10 : ычитание до 10
+Count and Backwards by 2 : Прямой и обратный счет через 2
+Making 6 : Упражнения 6
+Making 7 : Упражнения 7
+Making 8 : Упражнения 8
+Making 9 : Упражнения 9
+Making 10 : Упражнения 10
+
+
+Count and Backwards between 10 and 20 : Прямой и обратный счет от 10 до 20
+Count and Backwards by 2 up to 20 : Прямой и обратный счет через 2 до 20
+Sums up to 20 - Case 1 : Сложение до 20-Упражнение 1
+Sums up to 20 - Case 2 : Сложение до 20-Упражнение 2
+Subtract within 20 - Case 1 : Вычитание до 20-Упражнение 1
+Subtract within 20 - Case 2 : Вычитание до 20-Упражнение 2
+
+Even : Четные
+Odd : Нечетные
+
+Abacus : Счеты
+
+Add Doublets : Сложение одинаковых чисел
+Addition with 3 Numbers upto 10 : Сложение 3 чисел до 10
+Addition with 3 Numbers upto 20 : Сложение 3 чисел до 20
+Cumulative law of Addition : Правило сложения
+Property Subtraction : Правило вычитания
+Abacus upto 100 : На пальцах до 100
+Addition with Abacus : Сложение на пальцах
+Subtraction with Abacus : Вычитание на пальцах
+Abacus upto 1000 : На пальцах до 1000
+Multiplication : Умножение
+Relate Addition and Multiplication : Сравнение сложения и умножения
+Cumulative law of Multiplication : Правило умножения
+Multiplication Problems : Упражнения на умножение
+Multiplication - Division : Умножение-деление
+Division a : Деление – случай а
+Division b : Деление – случай б
+
+
+Counting : Счет
+sum : сум
+Up to 5 : до 5
+Up to 10 : до 10
+Up to 20 : до 20
+Up To 100 :  до 100
+
+Addition - Subtraction : Сложение - Вычитание
+Play again : Играть снова
+Next task : следующая задача
+Repeat question : Повторить вопрос
+Next question : Следующий вопрос
+
+Task 1 : Задание 1
+Task 2 : Задание 2
+Task 3 : Задание 3
+Task 4 : Задание 4
+Task 5 : Задание 5
+Task 6 : Задание 6
+Task 7 : Задание 7
+Task 8 : Задание 8
+Task 9 : Задание 9
+Task 10 : Задание 10
+Task 11 : Задание 11
+Task 12 : Задание 12
+
