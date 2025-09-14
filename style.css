@@ -380,3 +380,15 @@ body {
     display: none;
 }
 
+
+
+/* --- Mobile polish (very small phones) --- */
+@media (max-width: 500px) {
+  header { font-size: 120%; }
+  .nv { margin: 0 8px 12px; }
+}
+
+/* --- Medium phones (πολύ ήπιο) --- */
+@media (min-width: 501px) and (max-width: 800px) {
+  header { font-size: 130%; }
+}
